@@ -1,51 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-30T19:43:29 IST" name="Failed suite [BankingAPPv1]" finished-at="2023-09-30T19:44:15 IST" duration-ms="46346">
+  <suite started-at="2024-08-12T10:54:48 IST" name="POS TEST CASES" finished-at="2024-08-12T10:56:32 IST" duration-ms="103361">
     <groups>
     </groups>
-    <test started-at="2023-09-30T19:43:29 IST" name="BankingApp Test(failed)" finished-at="2023-09-30T19:44:15 IST" duration-ms="46346">
-      <class name="com.banking.testCases.TC_AddCustomerTest_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.banking.testCases.TC_AddCustomerTest_003@4b29d1d2]" started-at="2023-09-30T19:43:46 IST" name="setup" finished-at="2023-09-30T19:43:51 IST" duration-ms="5063" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-08-12T10:54:48 IST" name="POS TEST" finished-at="2024-08-12T10:56:32 IST" duration-ms="103361">
+      <class name="com.idzlink.testCases.POS.TC_PointofSales_T001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSales_T001@312aa7c]" started-at="2024-08-12T10:54:49 IST" name="setup" finished-at="2024-08-12T10:54:57 IST" duration-ms="8279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.banking.testCases.TC_AddCustomerTest_003@4b29d1d2]" started-at="2023-09-30T19:43:51 IST" name="addNewCustomer" finished-at="2023-09-30T19:44:06 IST" duration-ms="14834" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="possaveitem()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSales_T001@312aa7c]" started-at="2024-08-12T10:54:57 IST" name="possaveitem" finished-at="2024-08-12T10:55:27 IST" duration-ms="30473" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='name']"}
-  (Session info: chrome=117.0.5938.92)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=127.0.2651.98)
 Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa7d36f98cf5eebc33d3e143ce661996, findElement {using=name, value=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54628/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fa7d36f98cf5eebc33d3e143ce661996]]>
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [081feb7560f5fdd11a73f2e0af983c1c, findElement {using=xpath, value=//input[@value='OK']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58910}, msedge: {msedgedriverVersion: 127.0.2651.98 (9996f88545e1..., userDataDir: C:\Users\ARAVIN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58910/devtoo..., se:cdpVersion: 127.0.2651.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 081feb7560f5fdd11a73f2e0af983c1c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='name']"}
-  (Session info: chrome=117.0.5938.92)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=127.0.2651.98)
 Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fa7d36f98cf5eebc33d3e143ce661996, findElement {using=name, value=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54628/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fa7d36f98cf5eebc33d3e143ce661996
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [081feb7560f5fdd11a73f2e0af983c1c, findElement {using=xpath, value=//input[@value='OK']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58910}, msedge: {msedgedriverVersion: 127.0.2651.98 (9996f88545e1..., userDataDir: C:\Users\ARAVIN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58910/devtoo..., se:cdpVersion: 127.0.2651.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 081feb7560f5fdd11a73f2e0af983c1c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -59,13 +50,11 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-at com.banking.pageObjects.AddCustomerPage.custName(AddCustomerPage.java:74)
-at com.banking.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.idzlink.pageObjects.PointofSale.counterselection(PointofSale.java:117)
+at com.idzlink.testCases.POS.TC_PointofSales_T001.possaveitem(TC_PointofSales_T001.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
@@ -74,7 +63,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
@@ -88,76 +77,63 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
 at org.testng.TestNG.runSuites(TestNG.java:1099)
 at org.testng.TestNG.run(TestNG.java:1067)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_AddCustomerTest_003@4b29d1d2]" started-at="2023-09-30T19:44:06 IST" name="tearDown" finished-at="2023-09-30T19:44:06 IST" duration-ms="310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.banking.testCases.TC_AddCustomerTest_003 -->
-      <class name="com.banking.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginTest_001@7f485fda]" started-at="2023-09-30T19:44:06 IST" name="setup" finished-at="2023-09-30T19:44:13 IST" duration-ms="7113" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@7f485fda]" started-at="2023-09-30T19:44:13 IST" name="loginTest" finished-at="2023-09-30T19:44:15 IST" duration-ms="1595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_LoginTest_001@7f485fda]" started-at="2023-09-30T19:44:15 IST" name="tearDown" finished-at="2023-09-30T19:44:15 IST" duration-ms="193" status="PASS">
+        </test-method> <!-- possaveitem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSales_T001@312aa7c]" started-at="2024-08-12T10:55:27 IST" name="tearDown" finished-at="2024-08-12T10:55:28 IST" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.banking.testCases.TC_LoginTest_001 -->
-      <class name="com.banking.testCases.TC_LoginDDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginDDT_002@350aac89]" started-at="2023-09-30T19:43:29 IST" name="setup" finished-at="2023-09-30T19:43:39 IST" duration-ms="9847" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+      </class> <!-- com.idzlink.testCases.POS.TC_PointofSales_T001 -->
+      <class name="com.idzlink.testCases.POS.TC_PointofSalesEdit">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSalesEdit@71075444]" started-at="2024-08-12T10:55:28 IST" name="setup" finished-at="2024-08-12T10:55:36 IST" duration-ms="7920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.banking.testCases.TC_LoginDDT_002@350aac89]" started-at="2023-09-30T19:43:40 IST" name="loginDDT" data-provider="LoginData" finished-at="2023-09-30T19:43:46 IST" duration-ms="5340" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ac1!]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
+        <test-method signature="poseditmode()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSalesEdit@71075444]" started-at="2024-08-12T10:55:36 IST" name="poseditmode" finished-at="2024-08-12T10:56:31 IST" duration-ms="55785" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="tilecommon">...</div> is not clickable at point (603, 176). Other element would receive the click: <ul class="row">...</ul>
+  (Session info: MicrosoftEdge=127.0.2651.98)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d27d02d1703c14cd03b142c1d6bfc0c8, clickElement {id=f.299B717D1C0362B2649BA05A3AC3179F.d.FF52752A60E95BDE953AD3EE671B9325.e.271}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58970}, msedge: {msedgedriverVersion: 127.0.2651.98 (9996f88545e1..., userDataDir: C:\Users\ARAVIN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58970/devtoo..., se:cdpVersion: 127.0.2651.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d27d02d1703c14cd03b142c1d6bfc0c8)] -> css selector: .tilecommon]
+Session ID: d27d02d1703c14cd03b142c1d6bfc0c8]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:86)
-at org.junit.Assert.assertTrue(Assert.java:41)
-at org.junit.Assert.assertTrue(Assert.java:52)
-at com.banking.testCases.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="tilecommon">...</div> is not clickable at point (603, 176). Other element would receive the click: <ul class="row">...</ul>
+  (Session info: MicrosoftEdge=127.0.2651.98)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d27d02d1703c14cd03b142c1d6bfc0c8, clickElement {id=f.299B717D1C0362B2649BA05A3AC3179F.d.FF52752A60E95BDE953AD3EE671B9325.e.271}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58970}, msedge: {msedgedriverVersion: 127.0.2651.98 (9996f88545e1..., userDataDir: C:\Users\ARAVIN~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58970/devtoo..., se:cdpVersion: 127.0.2651.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d27d02d1703c14cd03b142c1d6bfc0c8)] -> css selector: .tilecommon]
+Session ID: d27d02d1703c14cd03b142c1d6bfc0c8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.idzlink.pageObjects.PointofSale.itemselection(PointofSale.java:125)
+at com.idzlink.testCases.POS.TC_PointofSalesEdit.poseditmode(TC_PointofSalesEdit.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
@@ -166,7 +142,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 at org.testng.TestRunner.privateRun(TestRunner.java:829)
 at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
@@ -180,19 +156,19 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
 at org.testng.TestNG.runSuites(TestNG.java:1099)
 at org.testng.TestNG.run(TestNG.java:1067)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.banking.testCases.TC_LoginDDT_002@350aac89]" started-at="2023-09-30T19:43:46 IST" name="tearDown" finished-at="2023-09-30T19:43:46 IST" duration-ms="278" status="PASS">
+        </test-method> <!-- poseditmode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSalesEdit@71075444]" started-at="2024-08-12T10:56:31 IST" name="tearDown" finished-at="2024-08-12T10:56:32 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.banking.testCases.TC_LoginDDT_002 -->
-    </test> <!-- BankingApp Test(failed) -->
-  </suite> <!-- Failed suite [BankingAPPv1] -->
+      </class> <!-- com.idzlink.testCases.POS.TC_PointofSalesEdit -->
+    </test> <!-- POS TEST -->
+  </suite> <!-- POS TEST CASES -->
 </testng-results>

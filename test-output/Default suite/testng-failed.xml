@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.banking.testCases.TC_LoginTest_001">
+      <class name="com.idzlink.testCases.POS.TC_PointofSalesEdit">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
+          <include name="poseditmode"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.banking.testCases.TC_LoginTest_001 -->
+      </class> <!-- com.idzlink.testCases.POS.TC_PointofSalesEdit -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
