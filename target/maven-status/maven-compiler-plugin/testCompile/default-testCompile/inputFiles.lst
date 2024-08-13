@@ -11,6 +11,7 @@ D:\idzlink\ERPproject\src\test\java\com\idzlink\pageObjects\SupplierPage.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\pageObjects\Unit.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\BaseClass.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\POS\TC_PointofSales_T001.java
+D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\POS\TC_PointofSalesDelete.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\POS\TC_PointofSalesEdit.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\TC_CustomerEdit_T004.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\TC_CustomerNew_T003.java

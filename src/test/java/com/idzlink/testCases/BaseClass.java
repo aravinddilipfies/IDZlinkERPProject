@@ -19,6 +19,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -127,19 +128,30 @@ public class BaseClass {
         }
 
         // Initialize WebDriver based on the specified browser
-        if (br.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", readconfig.getChromepath());
+        if (br.equalsIgnoreCase("chrome")) 
+        {
+        	//ChromeOptions options=new ChromeOptions();
+           
+        	System.setProperty("webdriver.chrome.driver", readconfig.getChromepath());
+           
+        	//options.addArguments("headless");
+        	//driver = new ChromeDriver(options);
             driver = new ChromeDriver();
-        } else if (br.equalsIgnoreCase("edge")) {
+            
+        }
+        else if (br.equalsIgnoreCase("edge")) {
             System.setProperty("webdriver.edge.driver", readconfig.getEdgepath());
             driver = new EdgeDriver();
-        } else {
+        }
+        else 
+        {
             throw new IllegalArgumentException("Unsupported browser: " + br);
         }
 
         // WebDriver configuration
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.manage().window().setSize(new Dimension(1440, 900));
+       // driver.manage().window().setSize(new Dimension(1440, 900));
+        driver.manage().window().maximize();
         driver.get(baseURL);
     }
 	
@@ -188,7 +200,7 @@ public class BaseClass {
 		Thread.sleep(5000);
 		lp.closebtn();
 		
-		System.out.println("opened ");
+		System.out.println("IDZlink.com is opened ");
 	}
 	
 	

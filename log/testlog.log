@@ -1835,3 +1835,255 @@
 2024-08-12 11:05:34,242 - ERP -INFO - URL is opened
 2024-08-12 11:05:34,349 - ERP -INFO - Entered Username
 2024-08-12 11:05:34,458 - ERP -INFO - Entered Password
+2024-08-12 13:23:26,374 - ERP -INFO - URL is opened
+2024-08-12 13:23:27,040 - ERP -INFO - Entered Username
+2024-08-12 13:23:27,173 - ERP -INFO - Entered Password
+2024-08-12 13:27:35,737 - ERP -INFO - URL is opened
+2024-08-12 13:27:35,881 - ERP -INFO - Entered Username
+2024-08-12 13:27:35,999 - ERP -INFO - Entered Password
+2024-08-12 13:32:14,990 - ERP -INFO - URL is opened
+2024-08-12 13:32:15,142 - ERP -INFO - Entered Username
+2024-08-12 13:32:15,241 - ERP -INFO - Entered Password
+2024-08-12 13:32:38,489 - ERP -INFO - items added to pos on new mode
+2024-08-12 13:32:46,286 - ERP -INFO - items added to pos on edit mode
+2024-08-12 13:32:49,086 - ERP -INFO - pos checkout on edit mode
+2024-08-12 14:05:29,025 - ERP -INFO - URL is opened
+2024-08-12 14:05:29,177 - ERP -INFO - Entered Username
+2024-08-12 14:05:29,291 - ERP -INFO - Entered Password
+2024-08-12 14:05:53,843 - ERP -INFO - items added to pos on new mode
+2024-08-12 14:06:03,544 - ERP -INFO - items added to pos on edit mode
+2024-08-12 14:06:06,337 - ERP -INFO - pos checkout on edit mode
+2024-08-12 14:16:08,358 - ERP -INFO - URL is opened
+2024-08-12 14:16:10,164 - ERP -INFO - Entered Username
+2024-08-12 14:16:10,271 - ERP -INFO - Entered Password
+2024-08-12 14:16:51,305 - ERP -INFO - URL is opened
+2024-08-12 14:16:51,416 - ERP -INFO - Entered Username
+2024-08-12 14:16:51,530 - ERP -INFO - Entered Password
+2024-08-12 14:18:17,515 - ERP -INFO - URL is opened
+2024-08-12 14:18:17,661 - ERP -INFO - Entered Username
+2024-08-12 14:18:17,766 - ERP -INFO - Entered Password
+2024-08-12 14:18:43,373 - ERP -INFO - items added to pos on new mode
+2024-08-12 14:18:52,959 - ERP -INFO - items added to pos on edit mode
+2024-08-12 14:18:55,767 - ERP -INFO - pos checkout on edit mode
+2024-08-12 14:25:19,201 - ERP -INFO - URL is opened
+2024-08-12 14:25:19,388 - ERP -INFO - Entered Username
+2024-08-12 14:25:19,496 - ERP -INFO - Entered Password
+2024-08-12 14:25:53,988 - ERP -INFO - URL is opened
+2024-08-12 14:25:55,555 - ERP -INFO - Entered Username
+2024-08-12 14:25:55,664 - ERP -INFO - Entered Password
+2024-08-12 14:26:21,254 - ERP -INFO - items added to pos on new mode
+2024-08-12 14:26:31,170 - ERP -INFO - items added to pos on edit mode
+2024-08-12 14:26:34,026 - ERP -INFO - pos checkout on edit mode
+2024-08-12 14:49:09,152 - ERP -INFO - URL is opened
+2024-08-12 14:49:09,304 - ERP -INFO - Entered Username
+2024-08-12 14:49:09,432 - ERP -INFO - Entered Password
+2024-08-12 14:49:34,420 - ERP -INFO - items added to pos on new mode
+2024-08-12 14:53:50,956 - ERP -INFO - URL is opened
+2024-08-12 14:53:51,109 - ERP -INFO - Entered Username
+2024-08-12 14:53:51,225 - ERP -INFO - Entered Password
+2024-08-12 14:54:18,103 - ERP -INFO - items added to pos on new mode
+2024-08-12 14:54:53,807 - ERP -INFO - URL is opened
+2024-08-12 14:54:53,953 - ERP -INFO - Entered Username
+2024-08-12 14:54:54,055 - ERP -INFO - Entered Password
+2024-08-12 14:55:18,579 - ERP -INFO - items added to pos on new mode
+2024-08-12 14:58:23,608 - ERP -INFO - URL is opened
+2024-08-12 14:58:23,753 - ERP -INFO - Entered Username
+2024-08-12 14:58:23,850 - ERP -INFO - Entered Password
+2024-08-12 14:58:48,940 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:00:02,092 - ERP -INFO - URL is opened
+2024-08-12 15:00:02,232 - ERP -INFO - Entered Username
+2024-08-12 15:00:02,337 - ERP -INFO - Entered Password
+2024-08-12 15:00:26,863 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:02:46,669 - ERP -INFO - URL is opened
+2024-08-12 15:02:46,808 - ERP -INFO - Entered Username
+2024-08-12 15:02:46,899 - ERP -INFO - Entered Password
+2024-08-12 15:03:10,102 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:05:15,328 - ERP -INFO - URL is opened
+2024-08-12 15:05:15,474 - ERP -INFO - Entered Username
+2024-08-12 15:05:15,581 - ERP -INFO - Entered Password
+2024-08-12 15:05:40,388 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:09:54,186 - ERP -INFO - URL is opened
+2024-08-12 15:09:54,334 - ERP -INFO - Entered Username
+2024-08-12 15:09:54,440 - ERP -INFO - Entered Password
+2024-08-12 15:10:21,276 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:10:28,655 - ERP -INFO - pos transaction deleted
+2024-08-12 15:15:44,928 - ERP -INFO - URL is opened
+2024-08-12 15:15:45,067 - ERP -INFO - Entered Username
+2024-08-12 15:15:45,152 - ERP -INFO - Entered Password
+2024-08-12 15:16:09,883 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:16:17,182 - ERP -INFO - pos transaction deleted
+2024-08-12 15:18:40,800 - ERP -INFO - URL is opened
+2024-08-12 15:18:40,947 - ERP -INFO - Entered Username
+2024-08-12 15:18:41,047 - ERP -INFO - Entered Password
+2024-08-12 15:19:05,132 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:19:12,415 - ERP -INFO - pos transaction deleted
+2024-08-12 15:22:54,816 - ERP -INFO - URL is opened
+2024-08-12 15:22:54,964 - ERP -INFO - Entered Username
+2024-08-12 15:22:55,077 - ERP -INFO - Entered Password
+2024-08-12 15:23:33,182 - ERP -INFO - URL is opened
+2024-08-12 15:23:33,280 - ERP -INFO - Entered Username
+2024-08-12 15:23:33,387 - ERP -INFO - Entered Password
+2024-08-12 15:23:58,928 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:24:08,522 - ERP -INFO - items added to pos on edit mode
+2024-08-12 15:24:11,323 - ERP -INFO - pos checkout on edit mode
+2024-08-12 15:24:21,447 - ERP -INFO - URL is opened
+2024-08-12 15:24:21,583 - ERP -INFO - Entered Username
+2024-08-12 15:24:21,691 - ERP -INFO - Entered Password
+2024-08-12 15:28:05,653 - ERP -INFO - URL is opened
+2024-08-12 15:28:05,801 - ERP -INFO - Entered Username
+2024-08-12 15:28:05,897 - ERP -INFO - Entered Password
+2024-08-12 15:28:56,485 - ERP -INFO - URL is opened
+2024-08-12 15:29:12,169 - ERP -INFO - URL is opened
+2024-08-12 15:29:19,049 - ERP -INFO - URL is opened
+2024-08-12 15:29:19,150 - ERP -INFO - Entered Username
+2024-08-12 15:29:19,252 - ERP -INFO - Entered Password
+2024-08-12 15:29:39,559 - ERP -INFO - URL is opened
+2024-08-12 15:30:09,623 - ERP -INFO - URL is opened
+2024-08-12 15:30:14,007 - ERP -INFO - URL is opened
+2024-08-12 15:30:15,135 - ERP -INFO - Entered Username
+2024-08-12 15:30:15,251 - ERP -INFO - Entered Password
+2024-08-12 15:30:40,608 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:30:47,842 - ERP -INFO - pos transaction deleted
+2024-08-12 15:32:05,018 - ERP -INFO - URL is opened
+2024-08-12 15:32:05,166 - ERP -INFO - Entered Username
+2024-08-12 15:32:05,266 - ERP -INFO - Entered Password
+2024-08-12 15:32:44,763 - ERP -INFO - URL is opened
+2024-08-12 15:32:44,863 - ERP -INFO - Entered Username
+2024-08-12 15:32:44,973 - ERP -INFO - Entered Password
+2024-08-12 15:33:09,441 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:33:19,009 - ERP -INFO - items added to pos on edit mode
+2024-08-12 15:33:21,819 - ERP -INFO - pos checkout on edit mode
+2024-08-12 15:33:32,909 - ERP -INFO - URL is opened
+2024-08-12 15:33:33,012 - ERP -INFO - Entered Username
+2024-08-12 15:33:33,108 - ERP -INFO - Entered Password
+2024-08-12 15:33:56,898 - ERP -INFO - items added to pos on new mode
+2024-08-12 15:34:04,200 - ERP -INFO - pos transaction deleted
+2024-08-12 16:18:08,857 - ERP -INFO - URL is opened
+2024-08-12 16:18:09,926 - ERP -INFO - Entered Username
+2024-08-12 16:18:10,078 - ERP -INFO - Entered Password
+2024-08-12 16:18:32,915 - ERP -INFO - URL is opened
+2024-08-12 16:19:02,938 - ERP -INFO - URL is opened
+2024-08-12 16:19:39,856 - ERP -INFO - URL is opened
+2024-08-12 16:19:39,969 - ERP -INFO - Entered Username
+2024-08-12 16:19:40,072 - ERP -INFO - Entered Password
+2024-08-12 16:20:06,868 - ERP -INFO - items added to pos on new mode
+2024-08-12 16:20:16,554 - ERP -INFO - items added to pos on edit mode
+2024-08-12 16:20:19,379 - ERP -INFO - pos checkout on edit mode
+2024-08-12 16:20:36,517 - ERP -INFO - URL is opened
+2024-08-12 16:20:36,621 - ERP -INFO - Entered Username
+2024-08-12 16:20:36,716 - ERP -INFO - Entered Password
+2024-08-12 16:21:02,139 - ERP -INFO - items added to pos on new mode
+2024-08-12 16:21:09,418 - ERP -INFO - pos transaction deleted
+2024-08-12 16:29:24,717 - ERP -INFO - URL is opened
+2024-08-12 16:29:24,856 - ERP -INFO - Entered Username
+2024-08-12 16:29:24,948 - ERP -INFO - Entered Password
+2024-08-12 16:29:48,899 - ERP -INFO - items added to pos on new mode
+2024-08-12 16:29:56,242 - ERP -INFO - pos transaction deleted
+2024-08-12 16:30:38,176 - ERP -INFO - URL is opened
+2024-08-12 16:30:38,292 - ERP -INFO - Entered Username
+2024-08-12 16:30:38,376 - ERP -INFO - Entered Password
+2024-08-12 16:31:02,193 - ERP -INFO - items added to pos on new mode
+2024-08-12 16:31:09,528 - ERP -INFO - pos transaction deleted
+2024-08-12 16:33:05,420 - ERP -INFO - URL is opened
+2024-08-12 16:33:05,559 - ERP -INFO - Entered Username
+2024-08-12 16:33:05,652 - ERP -INFO - Entered Password
+2024-08-12 16:33:56,021 - ERP -INFO - URL is opened
+2024-08-12 16:33:56,148 - ERP -INFO - Entered Username
+2024-08-12 16:33:56,233 - ERP -INFO - Entered Password
+2024-08-12 16:34:30,131 - ERP -INFO - URL is opened
+2024-08-12 16:34:30,237 - ERP -INFO - Entered Username
+2024-08-12 16:34:30,334 - ERP -INFO - Entered Password
+2024-08-12 16:34:37,010 - ERP -INFO - URL is opened
+2024-08-12 16:35:07,045 - ERP -INFO - URL is opened
+2024-08-12 16:35:39,218 - ERP -INFO - URL is opened
+2024-08-12 16:35:39,320 - ERP -INFO - Entered Username
+2024-08-12 16:35:39,412 - ERP -INFO - Entered Password
+2024-08-12 16:36:22,608 - ERP -INFO - URL is opened
+2024-08-12 16:36:52,668 - ERP -INFO - URL is opened
+2024-08-12 16:38:23,367 - ERP -INFO - URL is opened
+2024-08-12 16:38:23,502 - ERP -INFO - Entered Username
+2024-08-12 16:38:23,602 - ERP -INFO - Entered Password
+2024-08-12 16:38:44,778 - ERP -INFO - URL is opened
+2024-08-12 16:39:11,069 - ERP -INFO - URL is opened
+2024-08-12 16:39:16,027 - ERP -INFO - URL is opened
+2024-08-12 16:39:16,134 - ERP -INFO - Entered Username
+2024-08-12 16:39:16,238 - ERP -INFO - Entered Password
+2024-08-12 16:39:37,604 - ERP -INFO - URL is opened
+2024-08-12 16:40:07,660 - ERP -INFO - URL is opened
+2024-08-12 16:40:43,783 - ERP -INFO - URL is opened
+2024-08-12 16:40:43,904 - ERP -INFO - Entered Username
+2024-08-12 16:40:44,003 - ERP -INFO - Entered Password
+2024-08-12 16:41:06,926 - ERP -INFO - items added to pos on new mode
+2024-08-12 16:41:14,189 - ERP -INFO - pos transaction deleted
+2024-08-12 16:44:36,679 - ERP -INFO - URL is opened
+2024-08-12 16:44:36,818 - ERP -INFO - Entered Username
+2024-08-12 16:44:36,925 - ERP -INFO - Entered Password
+2024-08-12 16:45:15,494 - ERP -INFO - URL is opened
+2024-08-12 16:45:15,591 - ERP -INFO - Entered Username
+2024-08-12 16:45:15,701 - ERP -INFO - Entered Password
+2024-08-12 16:45:41,750 - ERP -INFO - items added to pos on new mode
+2024-08-12 16:45:51,267 - ERP -INFO - items added to pos on edit mode
+2024-08-12 16:45:54,067 - ERP -INFO - pos checkout on edit mode
+2024-08-12 16:46:02,264 - ERP -INFO - URL is opened
+2024-08-12 16:46:03,393 - ERP -INFO - Entered Username
+2024-08-12 16:46:03,493 - ERP -INFO - Entered Password
+2024-08-12 16:46:21,650 - ERP -INFO - pos interface is opened
+2024-08-12 16:46:24,328 - ERP -INFO - counter selected
+2024-08-12 16:46:27,661 - ERP -INFO - items added to pos on new mode
+2024-08-12 16:46:30,503 - ERP -INFO - pos checkedout
+2024-08-12 16:46:34,948 - ERP -INFO - pos transaction deleted
+2024-08-13 10:49:18,422 - ERP -INFO - URL is opened
+2024-08-13 10:49:18,797 - ERP -INFO - Entered Username
+2024-08-13 10:49:18,892 - ERP -INFO - Entered Password
+2024-08-13 10:49:30,384 - ERP -INFO - URL is opened
+2024-08-13 10:49:48,096 - ERP -INFO - URL is opened
+2024-08-13 10:50:04,453 - ERP -INFO - URL is opened
+2024-08-13 10:50:04,614 - ERP -INFO - Entered Username
+2024-08-13 10:50:04,753 - ERP -INFO - Entered Password
+2024-08-13 10:50:50,792 - ERP -INFO - URL is opened
+2024-08-13 10:50:53,685 - ERP -INFO - URL is opened
+2024-08-13 10:51:36,653 - ERP -INFO - URL is opened
+2024-08-13 10:51:36,806 - ERP -INFO - Entered Username
+2024-08-13 10:51:36,910 - ERP -INFO - Entered Password
+2024-08-13 10:52:20,407 - ERP -INFO - URL is opened
+2024-08-13 10:52:20,420 - ERP -INFO - URL is opened
+2024-08-13 10:57:01,335 - ERP -INFO - URL is opened
+2024-08-13 10:57:01,485 - ERP -INFO - Entered Username
+2024-08-13 10:57:01,597 - ERP -INFO - Entered Password
+2024-08-13 10:58:05,929 - ERP -INFO - URL is opened
+2024-08-13 10:58:33,895 - ERP -INFO - URL is opened
+2024-08-13 10:59:10,488 - ERP -INFO - URL is opened
+2024-08-13 10:59:11,826 - ERP -INFO - Entered Username
+2024-08-13 10:59:11,949 - ERP -INFO - Entered Password
+2024-08-13 10:59:45,562 - ERP -INFO - URL is opened
+2024-08-13 10:59:48,291 - ERP -INFO - URL is opened
+2024-08-13 11:33:45,392 - ERP -INFO - URL is opened
+2024-08-13 11:33:45,573 - ERP -INFO - Entered Username
+2024-08-13 11:33:45,684 - ERP -INFO - Entered Password
+2024-08-13 11:34:04,838 - ERP -INFO - pos interface is opened
+2024-08-13 11:34:10,569 - ERP -INFO - counter selected
+2024-08-13 11:34:14,133 - ERP -INFO - items added to pos on new mode
+2024-08-13 11:34:16,291 - ERP -INFO - pos checkedout
+2024-08-13 11:37:28,101 - ERP -INFO - URL is opened
+2024-08-13 11:37:28,258 - ERP -INFO - Entered Username
+2024-08-13 11:37:28,370 - ERP -INFO - Entered Password
+2024-08-13 11:38:09,706 - ERP -INFO - URL is opened
+2024-08-13 11:38:09,809 - ERP -INFO - Entered Username
+2024-08-13 11:38:09,921 - ERP -INFO - Entered Password
+2024-08-13 11:38:21,928 - ERP -INFO - URL is opened
+2024-08-13 11:38:51,967 - ERP -INFO - URL is opened
+2024-08-13 11:39:27,376 - ERP -INFO - URL is opened
+2024-08-13 11:39:27,487 - ERP -INFO - Entered Username
+2024-08-13 11:39:27,597 - ERP -INFO - Entered Password
+2024-08-13 11:39:47,900 - ERP -INFO - pos interface is opened
+2024-08-13 11:39:52,983 - ERP -INFO - counter selected
+2024-08-13 11:39:56,607 - ERP -INFO - items added to pos on new mode
+2024-08-13 11:39:59,468 - ERP -INFO - pos checkedout
+2024-08-13 11:40:03,976 - ERP -INFO - pos transaction deleted
+2024-08-13 11:40:12,709 - ERP -INFO - URL is opened
+2024-08-13 11:40:14,295 - ERP -INFO - Entered Username
+2024-08-13 11:40:14,393 - ERP -INFO - Entered Password
+2024-08-13 11:40:34,652 - ERP -INFO - pos interface is opened
+2024-08-13 11:40:38,011 - ERP -INFO - counter selected
+2024-08-13 11:40:41,646 - ERP -INFO - items added to pos on new mode
+2024-08-13 11:40:43,775 - ERP -INFO - pos checkedout

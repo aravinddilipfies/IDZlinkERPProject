@@ -7,10 +7,10 @@
 
 	</listeners>
 	<test thread-count="1" name="IDZlink Test">
-		<parameter name="browser" value="edge"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
-	<!-- 		<class name="com.idzlink.testCases.TC_LoginTest_001" />
+	 		<class name="com.idzlink.testCases.TC_LoginTest_001" />
 			<class name="com.idzlink.testCases.TC_LoginDDT_002" />
 			<class name="com.idzlink.testCases.TC_CustomerNew_T003" />
 			<class name="com.idzlink.testCases.TC_CustomerEdit_T004" />
@@ -21,12 +21,12 @@
 			<class name="com.idzlink.testCases.TC_ItemCategoryNew_T009" />
 			<class name="com.idzlink.testCases.TC_UnitNew_T010" />
 			<class name="com.idzlink.testCases.TC_PackingTypeNew" />
-			<class name="com.idzlink.testCases.TC_ItemmasternSave" /> -->
+			<class name="com.idzlink.testCases.TC_ItemmasternSave" />
 			<class name="com.idzlink.testCases.POS.TC_PointofSales_T001" />
 			<class name="com.idzlink.testCases.POS.TC_PointofSalesEdit" />
-			
-
-
+			<class name="com.idzlink.testCases.POS.TC_PointofSalesDelete"/>
+			<class name="com.idzlink.testCases.POS.TC_PointofSalesKeybordShotcutCash" />
+	
 		</classes>
 
 	</test> <!-- Test -->

@@ -52,6 +52,12 @@ public class Homepage extends AbstractComponents {
 	@CacheLookup
 	WebElement locationok;
 	
+	@FindBy(xpath="//body[1]/form[1]/div[5]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[1]/div[1]")
+	@CacheLookup
+	WebElement salesandreturn;
+	
+	
+	
 	
 	
 	
@@ -100,6 +106,12 @@ public class Homepage extends AbstractComponents {
 	public void submitlocation()
 	{
 		locationok.click();
+		
+	}
+	
+	public void salesandreturnexpand()
+	{
+		salesandreturn.click();
 		
 	}
 	

@@ -2,8 +2,11 @@ package com.idzlink.pageObjects;
 
 import java.util.List;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -92,6 +95,30 @@ public class PointofSale extends AbstractComponents {
 	@CacheLookup
 	WebElement closebtn;
 	
+	@FindBy(xpath="//span[normalize-space()='Updated Successfully.']")
+	@CacheLookup
+	WebElement updatesuccessfullpopup;
+	
+	@FindBy(id="btnDelete")
+	@CacheLookup
+	WebElement deletebtn;
+	
+	
+	@FindBy(id="txtCancelledRemarks")
+	@CacheLookup
+	WebElement deleteremarks;
+	
+	@FindBy(id="btnDeleteOk")
+	@CacheLookup
+	WebElement deleteokbtn;
+	
+	@FindBy(xpath="//span[@id='Cancelled']")
+	@CacheLookup
+	WebElement cancelled;
+	
+	
+	
+	
 	
 	
 	
@@ -118,7 +145,7 @@ public class PointofSale extends AbstractComponents {
 		
 	}
 	
-	public void itemselection()
+	public void itemadd()
 	{
 		for(WebElement item: items)
 		{
@@ -194,6 +221,50 @@ public class PointofSale extends AbstractComponents {
 		editbtn.click();
 		
 		closebtn.click();
+	}
+	
+	
+	public String updatesuccessfulmessage()
+	
+	{
+		return updatesuccessfullpopup.getText();
+	}
+	
+	public void additemsoneditmode()
+	{
+		for(WebElement item: items)
+		{
+			item.click();
+			okbtn.click();
+			
+		}
+	}
+	
+	
+	public void deletepostransaction() throws InterruptedException
+	{
+		Thread.sleep(1000);
+		waitForElementToBeVisible(deletebtn);
+		deletebtn.click();
+		deleteremarks.sendKeys("deleting pos transaction");
+		clickElement(deleteokbtn);
+		deleteokbtn.click();
+		
+	}
+	
+	public String cancelledvalidation() throws InterruptedException
+	{
+		Thread.sleep(1000);
+		return cancelled.getText();
+	}
+	
+	public void checkoutshortcutforcash() throws InterruptedException
+	{
+		Actions action=new Actions(driver);
+		action.keyDown(Keys.ALT).sendKeys("S").keyUp(Keys.ALT).perform();
+		Thread.sleep(2000);
+		action.keyDown(Keys.ALT).sendKeys("H").keyUp(Keys.ALT).perform();
+		
 	}
 	
 	
