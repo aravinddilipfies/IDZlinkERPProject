@@ -91,9 +91,10 @@ public class ItemMaster extends AbstractComponents {
 	
 	
 	
-	public void itemmasteropen()
+	public void itemmasteropen() throws InterruptedException
 	{
-		
+		scrollToElement(itembtn);
+		Thread.sleep(1000);
 		itembtn.click();
 	}
 	
@@ -116,6 +117,7 @@ public class ItemMaster extends AbstractComponents {
 
         advnce.click();
 
+        scrollToElement(itemsp);
         itemsp.clear();
         itemsp.sendKeys(sellingPrice);
         
@@ -123,6 +125,7 @@ public class ItemMaster extends AbstractComponents {
         scrolltomiddle(driver);
         Thread.sleep(2000);
         
+        scrollToElement(pktrefresh);
         pktrefresh.click();
         selectDropdownByIndex(itempkt,packingTypeIndex);
         

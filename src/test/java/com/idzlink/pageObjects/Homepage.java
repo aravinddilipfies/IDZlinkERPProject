@@ -24,13 +24,16 @@ public class Homepage extends AbstractComponents {
 	@CacheLookup
 	WebElement startbtn;
 	
-	@FindBy(xpath="//ul[@id='ul2371']//li[@id='lnkMaster']")
+	@FindBy(xpath="//div[@class='CompanyArea BusTile']//span[contains(text(),'01Automation')]/following::li[3]")
 	@CacheLookup
 	WebElement setup;
 	
+	//retail setup drop down
 	@FindBy(xpath="//tbody/tr[1]/td[2]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[6]/div[1]")
 	@CacheLookup
 	WebElement retailsetup;
+	
+	//tbody/tr[1]/td[2]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[6]/div[1]
 	
 	@FindBy(xpath="//tbody/tr[1]/td[2]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[6]/ul[1]/li[2]")
 	@CacheLookup
@@ -39,6 +42,7 @@ public class Homepage extends AbstractComponents {
 	@FindBy(xpath="//div[@id='target01Automation']//li[4]")
 	@CacheLookup
 	WebElement retail;
+	//div[@class='CompanyArea BusTile']//span[contains(text(),'01Automation')]/following::li[4]
 	
 	@FindBy(xpath="//div[@class='selectLocation']//span[contains(text(),'Select Location')]")
 	@CacheLookup
@@ -68,8 +72,9 @@ public class Homepage extends AbstractComponents {
 		startbtn.click();
 	}
 	
-	public void Setupclick()
+	public void Setupclick() throws InterruptedException
 	{
+		Thread.sleep(1500);	
 		clickElement(setup);
 		setup.click();
 	}

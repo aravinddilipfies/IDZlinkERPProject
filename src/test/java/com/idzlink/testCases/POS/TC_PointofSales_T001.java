@@ -50,10 +50,11 @@ public class TC_PointofSales_T001 extends BaseClass {
 
 		if (succ.toLowerCase().contains("saved successfully".toLowerCase())) {
 			// Assertion to pass the test
-			captureScreen(driver,"posnewmode");
+			
 			assertTrue(true);
 		} else {
 			// Assertion to fail the test with a message
+			captureScreen(driver,"posnewmode");
 			assertTrue(false, "The success message should contain 'Saved Successfully'");
 		}
 

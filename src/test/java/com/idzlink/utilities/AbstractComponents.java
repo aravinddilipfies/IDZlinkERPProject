@@ -68,4 +68,9 @@ public class AbstractComponents {
 		js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, 0);");
 	}
+	
+	// Method to scroll to a specific element
+    public void scrollToElement(WebElement element) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+    }
 }

@@ -17,7 +17,7 @@ import com.idzlink.utilities.Retry;
 public class TC_CustomerNew_T003 extends BaseClass {
 
 	
-	@Test(retryAnalyzer=Retry.class)
+	@Test
 	public void addnewcustomer() throws InterruptedException, IOException
 	{
 		intilization();
@@ -32,7 +32,7 @@ public class TC_CustomerNew_T003 extends BaseClass {
 		logger.info("Customer Master Opened");
 		
 		driver.switchTo().frame("frame1");
-		
+		Thread.sleep(2000);
 		cp.Customercategory("General"); // general
 		logger.info("Customer General Entered");
 		

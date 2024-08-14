@@ -52,8 +52,10 @@ public class PackingType extends AbstractComponents {
 	@CacheLookup
 	WebElement pksubmit;
 	
-	public void packingtypemaster()
+	public void packingtypemaster() throws InterruptedException
 	{
+		scrollToElement(pktbtn);
+		Thread.sleep(1000);
 		pktbtn.click();
 	}
 	

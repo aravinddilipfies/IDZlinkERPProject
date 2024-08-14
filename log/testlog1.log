@@ -2111,3 +2111,400 @@
 2024-08-13 12:13:12,855 [main] INFO ERP - counter selected
 2024-08-13 12:13:17,231 [main] INFO ERP - items added to pos on new mode
 2024-08-13 12:13:19,375 [main] INFO ERP - pos checkedout
+2024-08-13 13:28:13,056 [main] INFO ERP - URL is opened
+2024-08-13 13:28:17,772 [main] INFO ERP - Entered Username
+2024-08-13 13:28:17,925 [main] INFO ERP - Entered Password
+2024-08-13 13:29:03,256 [main] INFO ERP - URL is opened
+2024-08-13 13:29:03,382 [main] INFO ERP - Entered Username
+2024-08-13 13:29:03,522 [main] INFO ERP - Entered Password
+2024-08-13 13:29:35,761 [main] INFO ERP - items added to pos on new mode
+2024-08-13 13:29:48,193 [main] INFO ERP - items added to pos on edit mode
+2024-08-13 13:29:51,112 [main] INFO ERP - pos checkout on edit mode
+2024-08-13 13:30:03,109 [main] INFO ERP - URL is opened
+2024-08-13 13:30:03,286 [main] INFO ERP - Entered Username
+2024-08-13 13:30:03,428 [main] INFO ERP - Entered Password
+2024-08-13 13:30:25,761 [main] INFO ERP - pos interface is opened
+2024-08-13 13:30:31,138 [main] INFO ERP - counter selected
+2024-08-13 13:30:38,234 [main] INFO ERP - items added to pos on new mode
+2024-08-13 13:30:41,272 [main] INFO ERP - pos checkedout
+2024-08-13 13:30:45,892 [main] INFO ERP - pos transaction deleted
+2024-08-13 13:30:56,144 [main] INFO ERP - URL is opened
+2024-08-13 13:30:56,320 [main] INFO ERP - Entered Username
+2024-08-13 13:30:56,481 [main] INFO ERP - Entered Password
+2024-08-13 13:31:16,001 [main] INFO ERP - pos interface is opened
+2024-08-13 13:31:20,218 [main] INFO ERP - counter selected
+2024-08-13 13:31:26,899 [main] INFO ERP - items added to pos on new mode
+2024-08-13 13:31:29,188 [main] INFO ERP - pos checkedout
+2024-08-13 16:08:01,325 [main] INFO ERP - URL is opened
+2024-08-13 16:08:01,729 [main] INFO ERP - Entered Username
+2024-08-13 16:08:01,827 [main] INFO ERP - Entered Password
+2024-08-13 16:10:58,722 [main] INFO ERP - URL is opened
+2024-08-13 16:11:01,185 [main] INFO ERP - Entered Username
+2024-08-13 16:11:01,302 [main] INFO ERP - Entered Password
+2024-08-13 16:12:55,017 [main] INFO ERP - URL is opened
+2024-08-13 16:12:55,188 [main] INFO ERP - Entered Username
+2024-08-13 16:12:55,291 [main] INFO ERP - Entered Password
+2024-08-13 16:18:17,060 [main] INFO ERP - URL is opened
+2024-08-13 16:18:17,229 [main] INFO ERP - Entered Username
+2024-08-13 16:18:17,343 [main] INFO ERP - Entered Password
+2024-08-13 16:23:42,135 [main] INFO ERP - URL is opened
+2024-08-13 16:23:42,284 [main] INFO ERP - Entered Username
+2024-08-13 16:23:42,400 [main] INFO ERP - Entered Password
+2024-08-13 16:24:42,718 [main] INFO ERP - URL is opened
+2024-08-13 16:24:42,855 [main] INFO ERP - Entered Username
+2024-08-13 16:24:42,971 [main] INFO ERP - Entered Password
+2024-08-13 16:27:56,580 [main] INFO ERP - username provided
+2024-08-13 16:27:56,702 [main] INFO ERP - password provided
+2024-08-13 16:28:11,309 [main] INFO ERP - Login test passed
+2024-08-13 16:28:18,210 [main] INFO ERP - username provided
+2024-08-13 16:28:18,299 [main] INFO ERP - password provided
+2024-08-13 16:28:22,931 [main] INFO ERP - Login test passed
+2024-08-13 16:29:32,484 [main] INFO ERP - username provided
+2024-08-13 16:29:32,576 [main] INFO ERP - password provided
+2024-08-13 16:29:41,880 [main] INFO ERP - Login test passed
+2024-08-13 16:29:48,763 [main] INFO ERP - username provided
+2024-08-13 16:29:48,853 [main] INFO ERP - password provided
+2024-08-13 16:29:56,625 [main] INFO ERP - Login test passed
+2024-08-13 16:30:03,592 [main] INFO ERP - username provided
+2024-08-13 16:30:03,684 [main] INFO ERP - password provided
+2024-08-13 16:36:20,761 [main] INFO ERP - URL is opened
+2024-08-13 16:36:21,966 [main] INFO ERP - Entered Username
+2024-08-13 16:36:22,088 [main] INFO ERP - Entered Password
+2024-08-13 16:36:34,467 [main] INFO ERP - username provided
+2024-08-13 16:36:34,553 [main] INFO ERP - password provided
+2024-08-13 16:36:44,325 [main] INFO ERP - Login test passed
+2024-08-13 16:36:51,436 [main] INFO ERP - username provided
+2024-08-13 16:36:51,522 [main] INFO ERP - password provided
+2024-08-13 16:36:58,193 [main] INFO ERP - Login test passed
+2024-08-13 16:37:05,007 [main] INFO ERP - username provided
+2024-08-13 16:37:05,101 [main] INFO ERP - password provided
+2024-08-13 16:37:45,443 [main] INFO ERP - URL is opened
+2024-08-13 16:37:45,585 [main] INFO ERP - Entered Username
+2024-08-13 16:37:45,694 [main] INFO ERP - Entered Password
+2024-08-13 16:38:00,316 [main] INFO ERP - Customer Master Opened
+2024-08-13 16:38:01,235 [main] INFO ERP - Customer General Entered
+2024-08-13 16:38:01,355 [main] INFO ERP - Customer Name Entered
+2024-08-13 16:38:03,616 [main] INFO ERP - Customer Country Selected
+2024-08-13 16:38:03,774 [main] INFO ERP - Customer City Selected
+2024-08-13 16:38:03,926 [main] INFO ERP - Customer Currency Selected
+2024-08-13 16:38:04,067 [main] INFO ERP - Customer Group Selected
+2024-08-13 16:38:10,304 [main] INFO ERP - URL is opened
+2024-08-13 16:38:10,432 [main] INFO ERP - Entered Username
+2024-08-13 16:38:10,532 [main] INFO ERP - Entered Password
+2024-08-13 16:38:34,476 [main] INFO ERP - Customer master opened in edit mode
+2024-08-13 16:38:34,477 [main] INFO ERP - Entered customer matched
+2024-08-13 16:38:41,792 [main] INFO ERP - URL is opened
+2024-08-13 16:38:41,904 [main] INFO ERP - Entered Username
+2024-08-13 16:38:42,014 [main] INFO ERP - Entered Password
+2024-08-13 16:39:06,737 [main] INFO ERP - URL is opened
+2024-08-13 16:39:06,838 [main] INFO ERP - Entered Username
+2024-08-13 16:39:06,943 [main] INFO ERP - Entered Password
+2024-08-13 16:39:25,983 [main] INFO ERP - Entered vendor matched
+2024-08-13 16:39:32,354 [main] INFO ERP - URL is opened
+2024-08-13 16:39:32,456 [main] INFO ERP - Entered Username
+2024-08-13 16:39:32,562 [main] INFO ERP - Entered Password
+2024-08-13 16:39:51,586 [main] INFO ERP - custom code provided
+2024-08-13 16:39:51,658 [main] INFO ERP - duty percent provided
+2024-08-13 16:42:12,177 [main] INFO ERP - URL is opened
+2024-08-13 16:42:12,268 [main] INFO ERP - Entered Username
+2024-08-13 16:42:12,378 [main] INFO ERP - Entered Password
+2024-08-13 16:43:03,156 [main] INFO ERP - URL is opened
+2024-08-13 16:43:03,256 [main] INFO ERP - Entered Username
+2024-08-13 16:43:03,384 [main] INFO ERP - Entered Password
+2024-08-13 16:43:27,587 [main] INFO ERP - URL is opened
+2024-08-13 16:43:27,680 [main] INFO ERP - Entered Username
+2024-08-13 16:43:27,789 [main] INFO ERP - Entered Password
+2024-08-13 16:43:48,044 [main] INFO ERP - URL is opened
+2024-08-13 16:43:49,538 [main] INFO ERP - Entered Username
+2024-08-13 16:43:49,655 [main] INFO ERP - Entered Password
+2024-08-13 16:44:09,420 [main] INFO ERP - URL is opened
+2024-08-13 16:44:11,049 [main] INFO ERP - Entered Username
+2024-08-13 16:44:11,149 [main] INFO ERP - Entered Password
+2024-08-13 16:44:34,783 [main] INFO ERP - URL is opened
+2024-08-13 16:44:34,887 [main] INFO ERP - Entered Username
+2024-08-13 16:44:34,994 [main] INFO ERP - Entered Password
+2024-08-13 16:45:17,006 [main] INFO ERP - URL is opened
+2024-08-13 16:45:17,114 [main] INFO ERP - Entered Username
+2024-08-13 16:45:17,212 [main] INFO ERP - Entered Password
+2024-08-13 16:45:44,827 [main] INFO ERP - items added to pos on new mode
+2024-08-13 16:45:55,196 [main] INFO ERP - items added to pos on edit mode
+2024-08-13 16:45:58,021 [main] INFO ERP - pos checkout on edit mode
+2024-08-13 16:46:08,399 [main] INFO ERP - URL is opened
+2024-08-13 16:46:08,503 [main] INFO ERP - Entered Username
+2024-08-13 16:46:08,610 [main] INFO ERP - Entered Password
+2024-08-13 16:46:25,779 [main] INFO ERP - pos interface is opened
+2024-08-13 16:46:29,394 [main] INFO ERP - counter selected
+2024-08-13 16:46:33,763 [main] INFO ERP - items added to pos on new mode
+2024-08-13 16:46:36,617 [main] INFO ERP - pos checkedout
+2024-08-13 16:46:41,073 [main] INFO ERP - pos transaction deleted
+2024-08-13 16:46:50,288 [main] INFO ERP - URL is opened
+2024-08-13 16:46:50,402 [main] INFO ERP - Entered Username
+2024-08-13 16:46:50,492 [main] INFO ERP - Entered Password
+2024-08-13 16:47:09,531 [main] INFO ERP - pos interface is opened
+2024-08-13 16:47:13,698 [main] INFO ERP - counter selected
+2024-08-13 16:47:17,850 [main] INFO ERP - items added to pos on new mode
+2024-08-13 16:47:19,990 [main] INFO ERP - pos checkedout
+2024-08-13 16:47:33,288 [main] INFO ERP - URL is opened
+2024-08-13 16:47:33,404 [main] INFO ERP - Entered Username
+2024-08-13 16:47:33,508 [main] INFO ERP - Entered Password
+2024-08-13 16:51:33,887 [main] INFO ERP - URL is opened
+2024-08-13 16:51:34,049 [main] INFO ERP - Entered Username
+2024-08-13 16:51:34,148 [main] INFO ERP - Entered Password
+2024-08-13 16:52:27,140 [main] INFO ERP - URL is opened
+2024-08-13 16:52:27,300 [main] INFO ERP - Entered Username
+2024-08-13 16:52:27,426 [main] INFO ERP - Entered Password
+2024-08-13 16:52:48,385 [main] INFO ERP - URL is opened
+2024-08-13 16:52:48,485 [main] INFO ERP - Entered Username
+2024-08-13 16:52:48,589 [main] INFO ERP - Entered Password
+2024-08-13 16:53:08,177 [main] INFO ERP - custom code provided
+2024-08-13 16:53:08,257 [main] INFO ERP - duty percent provided
+2024-08-13 16:53:08,972 [main] INFO ERP - customs duty created
+2024-08-13 16:53:09,179 [main] INFO ERP - custom code provided
+2024-08-13 16:53:09,264 [main] INFO ERP - duty percent provided
+2024-08-13 16:53:09,923 [main] INFO ERP - customs duty created
+2024-08-13 16:53:10,074 [main] INFO ERP - custom code provided
+2024-08-13 16:53:10,167 [main] INFO ERP - duty percent provided
+2024-08-13 16:53:10,794 [main] INFO ERP - customs duty created
+2024-08-13 16:53:17,807 [main] INFO ERP - URL is opened
+2024-08-13 16:53:17,910 [main] INFO ERP - Entered Username
+2024-08-13 16:53:18,072 [main] INFO ERP - Entered Password
+2024-08-13 16:53:49,443 [main] INFO ERP - URL is opened
+2024-08-13 16:53:49,546 [main] INFO ERP - Entered Username
+2024-08-13 16:53:49,642 [main] INFO ERP - Entered Password
+2024-08-13 16:54:04,275 [main] INFO ERP - URL is opened
+2024-08-13 16:54:05,550 [main] INFO ERP - Entered Username
+2024-08-13 16:54:05,654 [main] INFO ERP - Entered Password
+2024-08-13 16:56:08,175 [main] INFO ERP - URL is opened
+2024-08-13 16:56:11,765 [main] INFO ERP - Entered Username
+2024-08-13 16:56:11,886 [main] INFO ERP - Entered Password
+2024-08-13 16:56:22,629 [main] INFO ERP - URL is opened
+2024-08-13 16:56:22,733 [main] INFO ERP - Entered Username
+2024-08-13 16:56:22,844 [main] INFO ERP - Entered Password
+2024-08-13 16:56:41,996 [main] INFO ERP - URL is opened
+2024-08-13 16:56:43,499 [main] INFO ERP - Entered Username
+2024-08-13 16:56:43,606 [main] INFO ERP - Entered Password
+2024-08-13 16:57:06,743 [main] INFO ERP - URL is opened
+2024-08-13 16:57:06,860 [main] INFO ERP - Entered Username
+2024-08-13 16:57:06,958 [main] INFO ERP - Entered Password
+2024-08-13 17:08:02,486 [main] INFO ERP - URL is opened
+2024-08-13 17:08:02,644 [main] INFO ERP - Entered Username
+2024-08-13 17:08:02,759 [main] INFO ERP - Entered Password
+2024-08-13 17:08:36,085 [main] INFO ERP - URL is opened
+2024-08-13 17:08:36,187 [main] INFO ERP - Entered Username
+2024-08-13 17:08:36,300 [main] INFO ERP - Entered Password
+2024-08-13 17:08:52,266 [main] INFO ERP - URL is opened
+2024-08-13 17:08:52,367 [main] INFO ERP - Entered Username
+2024-08-13 17:08:52,478 [main] INFO ERP - Entered Password
+2024-08-13 17:09:13,413 [main] INFO ERP - URL is opened
+2024-08-13 17:09:14,759 [main] INFO ERP - Entered Username
+2024-08-13 17:09:14,872 [main] INFO ERP - Entered Password
+2024-08-13 17:11:23,496 [main] INFO ERP - URL is opened
+2024-08-13 17:11:23,644 [main] INFO ERP - Entered Username
+2024-08-13 17:11:23,762 [main] INFO ERP - Entered Password
+2024-08-13 17:12:07,108 [main] INFO ERP - URL is opened
+2024-08-13 17:12:07,256 [main] INFO ERP - Entered Username
+2024-08-13 17:12:07,364 [main] INFO ERP - Entered Password
+2024-08-13 17:13:25,863 [main] INFO ERP - URL is opened
+2024-08-13 17:13:26,007 [main] INFO ERP - Entered Username
+2024-08-13 17:13:26,115 [main] INFO ERP - Entered Password
+2024-08-13 17:14:16,167 [main] INFO ERP - URL is opened
+2024-08-13 17:14:16,324 [main] INFO ERP - Entered Username
+2024-08-13 17:14:16,435 [main] INFO ERP - Entered Password
+2024-08-14 09:38:34,908 [main] INFO ERP - URL is opened
+2024-08-14 09:38:58,709 [main] INFO ERP - Entered Username
+2024-08-14 09:38:58,800 [main] INFO ERP - Entered Password
+2024-08-14 09:39:33,000 [main] INFO ERP - username provided
+2024-08-14 09:39:33,108 [main] INFO ERP - password provided
+2024-08-14 09:39:39,854 [main] INFO ERP - Login test passed
+2024-08-14 09:39:47,127 [main] INFO ERP - username provided
+2024-08-14 09:39:47,202 [main] INFO ERP - password provided
+2024-08-14 09:39:52,380 [main] INFO ERP - Login test passed
+2024-08-14 09:40:02,444 [main] INFO ERP - URL is opened
+2024-08-14 09:40:12,927 [main] INFO ERP - Entered Username
+2024-08-14 09:40:13,024 [main] INFO ERP - Entered Password
+2024-08-14 09:41:23,592 [main] INFO ERP - URL is opened
+2024-08-14 09:41:23,632 [main] INFO ERP - URL is opened
+2024-08-14 09:41:34,666 [main] INFO ERP - URL is opened
+2024-08-14 09:41:40,365 [main] INFO ERP - Entered Username
+2024-08-14 09:41:40,463 [main] INFO ERP - Entered Password
+2024-08-14 09:42:49,923 [main] INFO ERP - URL is opened
+2024-08-14 09:43:19,959 [main] INFO ERP - URL is opened
+2024-08-14 09:43:55,043 [main] INFO ERP - URL is opened
+2024-08-14 09:44:29,281 [main] INFO ERP - URL is opened
+2024-08-14 09:45:02,631 [main] INFO ERP - URL is opened
+2024-08-14 09:45:36,786 [main] INFO ERP - URL is opened
+2024-08-14 09:46:10,369 [main] INFO ERP - URL is opened
+2024-08-14 09:46:43,346 [main] INFO ERP - URL is opened
+2024-08-14 09:47:16,753 [main] INFO ERP - URL is opened
+2024-08-14 09:47:50,417 [main] INFO ERP - URL is opened
+2024-08-14 09:48:26,910 [main] INFO ERP - URL is opened
+2024-08-14 09:48:56,982 [main] INFO ERP - URL is opened
+2024-08-14 09:49:27,028 [main] INFO ERP - URL is opened
+2024-08-14 09:50:00,239 [main] INFO ERP - URL is opened
+2024-08-14 09:50:30,288 [main] INFO ERP - URL is opened
+2024-08-14 09:51:00,352 [main] INFO ERP - URL is opened
+2024-08-14 09:51:33,231 [main] INFO ERP - URL is opened
+2024-08-14 09:52:03,253 [main] INFO ERP - URL is opened
+2024-08-14 09:52:33,336 [main] INFO ERP - URL is opened
+2024-08-14 09:53:06,462 [main] INFO ERP - URL is opened
+2024-08-14 09:53:36,481 [main] INFO ERP - URL is opened
+2024-08-14 09:54:05,251 [main] INFO ERP - URL is opened
+2024-08-14 09:54:08,682 [main] INFO ERP - URL is opened
+2024-08-14 10:14:50,403 [main] INFO ERP - URL is opened
+2024-08-14 10:14:57,786 [main] INFO ERP - Entered Username
+2024-08-14 10:14:57,905 [main] INFO ERP - Entered Password
+2024-08-14 10:16:01,530 [main] INFO ERP - URL is opened
+2024-08-14 10:16:01,571 [main] INFO ERP - URL is opened
+2024-08-14 10:16:19,644 [main] INFO ERP - URL is opened
+2024-08-14 10:16:19,793 [main] INFO ERP - Entered Username
+2024-08-14 10:16:19,889 [main] INFO ERP - Entered Password
+2024-08-14 10:16:34,460 [main] INFO ERP - Customer Master Opened
+2024-08-14 10:16:35,667 [main] INFO ERP - Customer General Entered
+2024-08-14 10:16:35,868 [main] INFO ERP - Customer Name Entered
+2024-08-14 10:16:38,023 [main] INFO ERP - Customer Country Selected
+2024-08-14 10:16:38,123 [main] INFO ERP - Customer City Selected
+2024-08-14 10:16:38,218 [main] INFO ERP - Customer Currency Selected
+2024-08-14 10:16:38,394 [main] INFO ERP - Customer Group Selected
+2024-08-14 10:16:43,024 [main] INFO ERP - URL is opened
+2024-08-14 10:16:44,541 [main] INFO ERP - URL is opened
+2024-08-14 10:18:35,699 [main] INFO ERP - URL is opened
+2024-08-14 10:19:05,840 [main] INFO ERP - URL is opened
+2024-08-14 10:19:35,912 [main] INFO ERP - URL is opened
+2024-08-14 10:21:28,778 [main] INFO ERP - URL is opened
+2024-08-14 10:21:28,908 [main] INFO ERP - Entered Username
+2024-08-14 10:21:29,017 [main] INFO ERP - Entered Password
+2024-08-14 10:22:38,518 [main] INFO ERP - URL is opened
+2024-08-14 10:23:08,573 [main] INFO ERP - URL is opened
+2024-08-14 10:25:53,986 [main] INFO ERP - URL is opened
+2024-08-14 10:25:54,114 [main] INFO ERP - Entered Username
+2024-08-14 10:25:54,210 [main] INFO ERP - Entered Password
+2024-08-14 10:27:04,980 [main] INFO ERP - URL is opened
+2024-08-14 10:27:35,011 [main] INFO ERP - URL is opened
+2024-08-14 10:30:55,807 [main] INFO ERP - URL is opened
+2024-08-14 10:30:56,003 [main] INFO ERP - Entered Username
+2024-08-14 10:30:56,107 [main] INFO ERP - Entered Password
+2024-08-14 10:32:33,327 [main] INFO ERP - URL is opened
+2024-08-14 10:32:33,452 [main] INFO ERP - Entered Username
+2024-08-14 10:32:33,553 [main] INFO ERP - Entered Password
+2024-08-14 10:33:02,635 [main] INFO ERP - URL is opened
+2024-08-14 10:33:04,200 [main] INFO ERP - URL is opened
+2024-08-14 10:33:09,105 [main] INFO ERP - URL is opened
+2024-08-14 10:33:09,326 [main] INFO ERP - Entered Username
+2024-08-14 10:33:09,438 [main] INFO ERP - Entered Password
+2024-08-14 10:35:52,585 [main] INFO ERP - URL is opened
+2024-08-14 10:36:38,897 [main] INFO ERP - URL is opened
+2024-08-14 10:38:18,884 [main] INFO ERP - URL is opened
+2024-08-14 10:38:24,427 [main] INFO ERP - URL is opened
+2024-08-14 10:38:34,974 [main] INFO ERP - URL is opened
+2024-08-14 10:39:03,260 [main] INFO ERP - URL is opened
+2024-08-14 10:39:03,394 [main] INFO ERP - Entered Username
+2024-08-14 10:39:03,516 [main] INFO ERP - Entered Password
+2024-08-14 10:40:43,809 [main] INFO ERP - URL is opened
+2024-08-14 10:40:44,014 [main] INFO ERP - Entered Username
+2024-08-14 10:40:44,118 [main] INFO ERP - Entered Password
+2024-08-14 10:44:32,228 [main] INFO ERP - URL is opened
+2024-08-14 10:44:33,267 [main] INFO ERP - Entered Username
+2024-08-14 10:44:33,365 [main] INFO ERP - Entered Password
+2024-08-14 10:44:45,072 [main] INFO ERP - Customer Master Opened
+2024-08-14 10:44:45,620 [main] INFO ERP - Customer General Entered
+2024-08-14 10:44:45,757 [main] INFO ERP - Customer Name Entered
+2024-08-14 10:44:48,002 [main] INFO ERP - Customer Country Selected
+2024-08-14 10:44:48,182 [main] INFO ERP - Customer City Selected
+2024-08-14 10:44:48,328 [main] INFO ERP - Customer Currency Selected
+2024-08-14 10:44:48,468 [main] INFO ERP - Customer Group Selected
+2024-08-14 10:45:29,655 [main] INFO ERP - URL is opened
+2024-08-14 10:45:30,740 [main] INFO ERP - Entered Username
+2024-08-14 10:45:30,845 [main] INFO ERP - Entered Password
+2024-08-14 10:46:23,514 [main] INFO ERP - URL is opened
+2024-08-14 10:46:23,640 [main] INFO ERP - Entered Username
+2024-08-14 10:46:23,742 [main] INFO ERP - Entered Password
+2024-08-14 10:46:35,548 [main] INFO ERP - Customer Master Opened
+2024-08-14 10:46:36,022 [main] INFO ERP - Customer General Entered
+2024-08-14 10:46:36,179 [main] INFO ERP - Customer Name Entered
+2024-08-14 10:46:38,421 [main] INFO ERP - Customer Country Selected
+2024-08-14 10:46:38,570 [main] INFO ERP - Customer City Selected
+2024-08-14 10:46:38,712 [main] INFO ERP - Customer Currency Selected
+2024-08-14 10:46:38,882 [main] INFO ERP - Customer Group Selected
+2024-08-14 10:46:44,488 [main] INFO ERP - URL is opened
+2024-08-14 10:46:44,585 [main] INFO ERP - Entered Username
+2024-08-14 10:46:44,677 [main] INFO ERP - Entered Password
+2024-08-14 10:47:05,753 [main] INFO ERP - Customer master opened in edit mode
+2024-08-14 10:47:05,754 [main] INFO ERP - Entered customer matched
+2024-08-14 10:47:11,499 [main] INFO ERP - URL is opened
+2024-08-14 10:47:11,586 [main] INFO ERP - Entered Username
+2024-08-14 10:47:11,679 [main] INFO ERP - Entered Password
+2024-08-14 10:47:55,728 [main] INFO ERP - URL is opened
+2024-08-14 10:47:55,821 [main] INFO ERP - Entered Username
+2024-08-14 10:47:55,907 [main] INFO ERP - Entered Password
+2024-08-14 10:48:18,224 [main] INFO ERP - URL is opened
+2024-08-14 10:48:18,329 [main] INFO ERP - Entered Username
+2024-08-14 10:48:18,434 [main] INFO ERP - Entered Password
+2024-08-14 10:52:09,760 [main] INFO ERP - URL is opened
+2024-08-14 10:52:11,607 [main] INFO ERP - Entered Username
+2024-08-14 10:52:11,729 [main] INFO ERP - Entered Password
+2024-08-14 10:52:22,316 [main] INFO ERP - username provided
+2024-08-14 10:52:22,406 [main] INFO ERP - password provided
+2024-08-14 10:52:30,415 [main] INFO ERP - Login test passed
+2024-08-14 10:52:37,206 [main] INFO ERP - username provided
+2024-08-14 10:52:37,288 [main] INFO ERP - password provided
+2024-08-14 10:52:40,923 [main] INFO ERP - Login test passed
+2024-08-14 10:52:49,948 [main] INFO ERP - URL is opened
+2024-08-14 10:52:50,046 [main] INFO ERP - Entered Username
+2024-08-14 10:52:50,142 [main] INFO ERP - Entered Password
+2024-08-14 10:53:36,777 [main] INFO ERP - URL is opened
+2024-08-14 10:53:36,886 [main] INFO ERP - Entered Username
+2024-08-14 10:53:36,994 [main] INFO ERP - Entered Password
+2024-08-14 10:53:53,492 [main] INFO ERP - URL is opened
+2024-08-14 10:55:02,077 [main] INFO ERP - URL is opened
+2024-08-14 10:55:02,228 [main] INFO ERP - Entered Username
+2024-08-14 10:55:02,323 [main] INFO ERP - Entered Password
+2024-08-14 10:55:19,168 [main] INFO ERP - Customer Master Opened
+2024-08-14 10:55:19,672 [main] INFO ERP - Customer General Entered
+2024-08-14 10:55:19,808 [main] INFO ERP - Customer Name Entered
+2024-08-14 10:55:22,055 [main] INFO ERP - Customer Country Selected
+2024-08-14 10:55:22,199 [main] INFO ERP - Customer City Selected
+2024-08-14 10:55:22,362 [main] INFO ERP - Customer Currency Selected
+2024-08-14 10:55:22,567 [main] INFO ERP - Customer Group Selected
+2024-08-14 10:55:44,932 [main] INFO ERP - URL is opened
+2024-08-14 10:55:45,979 [main] INFO ERP - Entered Username
+2024-08-14 10:55:46,073 [main] INFO ERP - Entered Password
+2024-08-14 10:56:21,171 [main] INFO ERP - URL is opened
+2024-08-14 10:56:22,206 [main] INFO ERP - Entered Username
+2024-08-14 10:56:22,303 [main] INFO ERP - Entered Password
+2024-08-14 10:59:58,150 [main] INFO ERP - URL is opened
+2024-08-14 10:59:58,286 [main] INFO ERP - Entered Username
+2024-08-14 10:59:58,419 [main] INFO ERP - Entered Password
+2024-08-14 11:01:18,352 [main] INFO ERP - URL is opened
+2024-08-14 11:05:17,675 [main] INFO ERP - URL is opened
+2024-08-14 11:05:17,846 [main] INFO ERP - Entered Username
+2024-08-14 11:05:17,944 [main] INFO ERP - Entered Password
+2024-08-14 11:05:32,889 [main] INFO ERP - Customer Master Opened
+2024-08-14 11:05:33,880 [main] INFO ERP - Customer General Entered
+2024-08-14 11:05:34,019 [main] INFO ERP - Customer Name Entered
+2024-08-14 11:05:36,154 [main] INFO ERP - Customer Country Selected
+2024-08-14 11:05:36,249 [main] INFO ERP - Customer City Selected
+2024-08-14 11:05:36,412 [main] INFO ERP - Customer Currency Selected
+2024-08-14 11:05:36,563 [main] INFO ERP - Customer Group Selected
+2024-08-14 11:07:28,908 [main] INFO ERP - URL is opened
+2024-08-14 11:07:29,031 [main] INFO ERP - Entered Username
+2024-08-14 11:07:29,136 [main] INFO ERP - Entered Password
+2024-08-14 11:08:29,440 [main] INFO ERP - URL is opened
+2024-08-14 11:08:29,566 [main] INFO ERP - Entered Username
+2024-08-14 11:08:29,666 [main] INFO ERP - Entered Password
+2024-08-14 11:08:45,508 [main] INFO ERP - Customer Master Opened
+2024-08-14 11:08:48,646 [main] INFO ERP - Customer General Entered
+2024-08-14 11:08:48,894 [main] INFO ERP - Customer Name Entered
+2024-08-14 11:08:51,148 [main] INFO ERP - Customer Country Selected
+2024-08-14 11:08:51,309 [main] INFO ERP - Customer City Selected
+2024-08-14 11:08:51,449 [main] INFO ERP - Customer Currency Selected
+2024-08-14 11:08:51,582 [main] INFO ERP - Customer Group Selected
+2024-08-14 11:13:35,054 [main] INFO ERP - URL is opened
+2024-08-14 11:13:35,173 [main] INFO ERP - Entered Username
+2024-08-14 11:13:35,270 [main] INFO ERP - Entered Password
+2024-08-14 11:13:48,426 [main] INFO ERP - Customer Master Opened
+2024-08-14 11:13:50,924 [main] INFO ERP - Customer General Entered
+2024-08-14 11:13:51,054 [main] INFO ERP - Customer Name Entered
+2024-08-14 11:13:53,315 [main] INFO ERP - Customer Country Selected
+2024-08-14 11:13:53,484 [main] INFO ERP - Customer City Selected
+2024-08-14 11:13:53,634 [main] INFO ERP - Customer Currency Selected
+2024-08-14 11:13:53,771 [main] INFO ERP - Customer Group Selected
