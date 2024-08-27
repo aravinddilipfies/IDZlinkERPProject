@@ -7,13 +7,13 @@
   <test thread-count="5" name="POS TEST(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.idzlink.testCases.POS.TC_PointofSalesEdit">
+      <class name="com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum">
         <methods>
-          <include name="poseditmode"/>
+          <include name="itemsumverification"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.idzlink.testCases.POS.TC_PointofSalesEdit -->
+      </class> <!-- com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum -->
     </classes>
   </test> <!-- POS TEST(failed) -->
 </suite> <!-- Failed suite [POS TEST CASES] -->

@@ -98,7 +98,7 @@ public class ItemMaster extends AbstractComponents {
 		itembtn.click();
 	}
 	
-	public void Itemsave(String description, int categoryIndex, int unitIndex, int taxCategoryIndex, String costPrice, String sellingPrice,int packingTypeIndex) throws InterruptedException 
+	public void Itemsave(String description, int categoryIndex, String unitvalue, int taxCategoryIndex, String costPrice, String sellingPrice,int packingTypeIndex) throws InterruptedException 
 	{
         
 		
@@ -106,9 +106,14 @@ public class ItemMaster extends AbstractComponents {
         itemdesc.clear();
         itemdesc.sendKeys(description);
 
+        clickElement(itemcat);
         selectDropdownByIndex(itemcat, categoryIndex);
-        selectDropdownByIndex(itemunit, unitIndex);
+        clickElement(itemunit);
+        
+        selectDropdownByValue(itemunit, unitvalue);
         Thread.sleep(1000);
+        
+        clickElement(itemtax);
         selectDropdownByIndex(itemtax, taxCategoryIndex);
         Thread.sleep(1000);
 
@@ -116,13 +121,14 @@ public class ItemMaster extends AbstractComponents {
         itemcp.sendKeys(costPrice);
 
         advnce.click();
-
+        Thread.sleep(2000);
+        
         scrollToElement(itemsp);
         itemsp.clear();
         itemsp.sendKeys(sellingPrice);
         
         
-        scrolltomiddle(driver);
+        
         Thread.sleep(2000);
         
         scrollToElement(pktrefresh);
@@ -130,9 +136,14 @@ public class ItemMaster extends AbstractComponents {
         selectDropdownByIndex(itempkt,packingTypeIndex);
         
 
+        Thread.sleep(1000);
         clickElement(itembasepkt);
+        scrollToElement(itembasepkt);
         itembasepkt.click();
+        
+        
         clickElement(itemadddetails);
+        scrollToElement(itemadddetails);
         itemadddetails.click();
         
         

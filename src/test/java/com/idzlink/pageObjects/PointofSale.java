@@ -1,7 +1,11 @@
 package com.idzlink.pageObjects;
 
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -116,6 +120,33 @@ public class PointofSale extends AbstractComponents {
 	@CacheLookup
 	WebElement cancelled;
 	
+	@FindBy(xpath="//input[@id='txtItemSearch']")
+	@CacheLookup
+	WebElement itemsearchtxt;
+	
+	
+	@FindBy(xpath="//span[@id='cartArrow']")
+	@CacheLookup
+	List<WebElement> itemcartarrows;
+	
+	@FindBy(xpath="//li[@id='1']//i[@id='arrow']")
+	@CacheLookup
+	WebElement firstcartarrow;
+	
+	
+	
+	@FindBy(xpath="//input[@id='UnitPrice']")
+	@CacheLookup
+	List<WebElement> UnitPrices;
+	
+	@FindBy(xpath="//span[@id='UnitItemTax']")
+	@CacheLookup
+	List<WebElement> UnitItemTaxes;
+	
+	@FindBy(xpath="//div[@class='Totalrow']//div//span[@id='totalTax']")
+	@CacheLookup
+	WebElement totaltax;
+	
 	
 	
 	
@@ -157,7 +188,7 @@ public class PointofSale extends AbstractComponents {
 	}
 	
 	
-	public double  calculationcheck()
+	public double  gettheitempricesum()
 	{
 		double totalPrice = 0;
         for (WebElement element : priceElements) {
@@ -168,10 +199,10 @@ public class PointofSale extends AbstractComponents {
         return totalPrice;
 	}
 	
-	public double FinalAmount()
+	public float FinalAmount()
 	{
 		String Total=finalamt.getText();
-		double amt=Double.parseDouble(Total);
+		float amt=Float.parseFloat(Total);
 		return amt;
 		
 	}
@@ -268,12 +299,62 @@ public class PointofSale extends AbstractComponents {
 	}
 	
 	
-	//ul[@class='CategoryMain level1']//span[@class='maincatName'][normalize-space()='Point of Sales']
+	public void scrolltoTopofCart()
+	{
+		scrollToElement(firstcartarrow);
+	}
+	
+	public Map<String, Float> calculateTotalPriceAndTax() throws InterruptedException {
+	    float totalUnitPrice = 0.0f;
+	    float totalUnitTax = 0.0f;
+
+	    // External iterator for corresponding lists
+	    Iterator<WebElement> priceIterator = UnitPrices.iterator();
+	    Iterator<WebElement> taxIterator = UnitItemTaxes.iterator();
+
+	    // Loop through each cart arrow using a for-each loop
+	    for (WebElement cartArrow : itemcartarrows) {
+	        // Click the cart arrow
+	        cartArrow.click();
+	        
+	        Thread.sleep(1000);
+	        // Get the unit price and tax using the iterators
+	        if (priceIterator.hasNext() && taxIterator.hasNext()) {
+	            String unitPriceText = priceIterator.next().getAttribute("value"); // Assuming value attribute holds the price
+	            String unitTaxText = taxIterator.next().getText();
+
+	            // Convert the text to float
+	            try {
+	                float unitPrice = Float.parseFloat(unitPriceText);
+	                float unitTax = Float.parseFloat(unitTaxText);
+
+	                // Add the values to the total
+	                totalUnitPrice += unitPrice;
+	                totalUnitTax += unitTax;
+	            } catch (NumberFormatException e) {
+	                System.out.println("Failed to parse unit price or tax. Skipping item.");
+	            }
+	        }
+	    }
+
+	    // Calculate the sum of totalUnitPrice and totalUnitTax
+	    float sum = totalUnitPrice + totalUnitTax;
+
+	    // Create a map to store and return the results
+	    Map<String, Float> result = new HashMap<>();
+	    result.put("sum", sum);
+	    result.put("totalUnitTax", totalUnitTax);
+
+	    return result;
+	}
+	
+	public String getTotalTax()
+	{
+		return totaltax.getText();
+	}
 	
 	
 	
 	
-	
-	//ul[@class='CategoryMain level1']//span[@class='maincatName'][normalize-space()='Point of Sales']
 	
 }

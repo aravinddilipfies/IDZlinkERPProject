@@ -1,3 +1,4 @@
+D:\idzlink\ERPproject\src\test\java\com\idzlink\pageObjects\Country.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\pageObjects\CustomerPage.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\pageObjects\CustomsPage.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\pageObjects\Homepage.java
@@ -14,6 +15,7 @@ D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\POS\TC_PointofSales_T0
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\POS\TC_PointofSalesDelete.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\POS\TC_PointofSalesEdit.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\POS\TC_PointofSalesKeybordShotcutCash.java
+D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\TC_CountryMasterNewMode.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\TC_CustomerEdit_T004.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\TC_CustomerNew_T003.java
 D:\idzlink\ERPproject\src\test\java\com\idzlink\testCases\TC_CustomsDDT_T007.java

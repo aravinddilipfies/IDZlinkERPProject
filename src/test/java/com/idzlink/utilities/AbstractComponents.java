@@ -48,6 +48,14 @@ public class AbstractComponents {
 	        Select select = new Select(dropdown);
 	        select.selectByIndex(index);
 	    }
+	public void selectDropdownByValue(WebElement dropdown, String value) {
+		
+	    wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	    wait.until(ExpectedConditions.elementToBeClickable(dropdown));
+	    Select select = new Select(dropdown);
+	    select.selectByValue(value);
+	}
+	
 	
 	public static void scrollPageDown (WebDriver driver)
 	{ 
@@ -73,4 +81,7 @@ public class AbstractComponents {
     public void scrollToElement(WebElement element) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
     }
+    
+   
+    
 }

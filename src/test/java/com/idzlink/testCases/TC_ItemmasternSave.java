@@ -28,7 +28,7 @@ public class TC_ItemmasternSave extends BaseClass {
 		String itemname =randomeString();
 		String itemsp= "1"+itemcp;
 		
-		im.Itemsave(itemname, 1, 2, 1, itemcp, itemsp,1);
+		im.Itemsave(itemname, 1, "1", 1, itemcp, itemsp,1);
 		
 		
 		

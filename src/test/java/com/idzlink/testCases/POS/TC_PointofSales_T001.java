@@ -4,6 +4,7 @@ import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.idzlink.pageObjects.Homepage;
@@ -33,7 +34,7 @@ public class TC_PointofSales_T001 extends BaseClass {
 		ps.counterselection();
 
 		ps.itemadd();
-		double totalamount = ps.calculationcheck();
+		double totalamount = ps.gettheitempricesum();
 
 		System.out.println(totalamount);
 
@@ -51,11 +52,11 @@ public class TC_PointofSales_T001 extends BaseClass {
 		if (succ.toLowerCase().contains("saved successfully".toLowerCase())) {
 			// Assertion to pass the test
 			
-			assertTrue(true);
+			Assert.assertTrue(true);
 		} else {
 			// Assertion to fail the test with a message
 			captureScreen(driver,"posnewmode");
-			assertTrue(false, "The success message should contain 'Saved Successfully'");
+			Assert.assertTrue(false);
 		}
 
 		Thread.sleep(1000);

@@ -7,13 +7,6 @@
   <test thread-count="5" name="IDZlink Test(failed)(failed)(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.idzlink.testCases.TC_ItemmasternSave">
-        <methods>
-          <include name="addnewitem"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.idzlink.testCases.TC_ItemmasternSave -->
       <class name="com.idzlink.testCases.TC_LoginTest_001">
         <methods>
           <include name="loginTest"/>
@@ -21,6 +14,20 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.idzlink.testCases.TC_LoginTest_001 -->
+      <class name="com.idzlink.testCases.TC_CustomerEdit_T004">
+        <methods>
+          <include name="editcustomer"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.TC_CustomerEdit_T004 -->
+      <class name="com.idzlink.testCases.TC_ItemmasternSave">
+        <methods>
+          <include name="addnewitem"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.TC_ItemmasternSave -->
       <class name="com.idzlink.testCases.TC_CountryMasterNewMode">
         <methods>
           <include name="setup"/>
@@ -28,13 +35,6 @@
           <include name="countrymasternewmode"/>
         </methods>
       </class> <!-- com.idzlink.testCases.TC_CountryMasterNewMode -->
-      <class name="com.idzlink.testCases.TC_PackingTypeNew">
-        <methods>
-          <include name="addnewpackkingtye"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.idzlink.testCases.TC_PackingTypeNew -->
     </classes>
   </test> <!-- IDZlink Test(failed)(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Failed suite [IDZlink Test Suit]]] -->

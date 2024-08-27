@@ -40,7 +40,7 @@ public class TC_CustomerNew_T003 extends BaseClass {
 		cp.setCustomerName(customername); // customer name
 		logger.info("Customer Name Entered");
 		
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		cp.CustomerCountry(5); // country
 		logger.info("Customer Country Selected");

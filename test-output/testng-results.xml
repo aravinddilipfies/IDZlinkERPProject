@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-14T11:13:28 IST" name="Default suite" finished-at="2024-08-14T11:13:55 IST" duration-ms="27006">
+  <suite started-at="2024-08-27T10:58:08 IST" name="Default suite" finished-at="2024-08-27T10:59:06 IST" duration-ms="57556">
     <groups>
     </groups>
-    <test started-at="2024-08-14T11:13:28 IST" name="Default test" finished-at="2024-08-14T11:13:55 IST" duration-ms="27006">
-      <class name="com.idzlink.testCases.TC_CustomerNew_T003">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.idzlink.testCases.TC_CustomerNew_T003@433defed]" started-at="2024-08-14T11:13:28 IST" name="setup" finished-at="2024-08-14T11:13:35 IST" duration-ms="6946" status="PASS">
+    <test started-at="2024-08-27T10:58:08 IST" name="Default test" finished-at="2024-08-27T10:59:06 IST" duration-ms="57556">
+      <class name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation@433defed]" started-at="2024-08-27T10:58:08 IST" name="setup" finished-at="2024-08-27T10:58:14 IST" duration-ms="6182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addnewcustomer()[pri:0, instance:com.idzlink.testCases.TC_CustomerNew_T003@433defed]" started-at="2024-08-14T11:13:35 IST" name="addnewcustomer" finished-at="2024-08-14T11:13:54 IST" duration-ms="19699" status="PASS">
+        <test-method signature="posUnitPriceandTaxCalculation()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation@433defed]" started-at="2024-08-27T10:58:14 IST" name="posUnitPriceandTaxCalculation" finished-at="2024-08-27T10:59:05 IST" duration-ms="51100" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addnewcustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.idzlink.testCases.TC_CustomerNew_T003@433defed]" started-at="2024-08-14T11:13:54 IST" name="tearDown" finished-at="2024-08-14T11:13:55 IST" duration-ms="316" status="PASS">
+        </test-method> <!-- posUnitPriceandTaxCalculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation@433defed]" started-at="2024-08-27T10:59:06 IST" name="tearDown" finished-at="2024-08-27T10:59:06 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.idzlink.testCases.TC_CustomerNew_T003 -->
+      </class> <!-- com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
