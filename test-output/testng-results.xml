@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-27T10:58:08 IST" name="Default suite" finished-at="2024-08-27T10:59:06 IST" duration-ms="57556">
+  <suite started-at="2024-08-27T16:48:04 IST" name="Default suite" finished-at="2024-08-27T16:49:31 IST" duration-ms="86753">
     <groups>
     </groups>
-    <test started-at="2024-08-27T10:58:08 IST" name="Default test" finished-at="2024-08-27T10:59:06 IST" duration-ms="57556">
-      <class name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation@433defed]" started-at="2024-08-27T10:58:08 IST" name="setup" finished-at="2024-08-27T10:58:14 IST" duration-ms="6182" status="PASS">
+    <test started-at="2024-08-27T16:48:04 IST" name="Default test" finished-at="2024-08-27T16:49:31 IST" duration-ms="86753">
+      <class name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS@2a693f59]" started-at="2024-08-27T16:48:04 IST" name="setup" finished-at="2024-08-27T16:48:13 IST" duration-ms="8482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="posUnitPriceandTaxCalculation()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation@433defed]" started-at="2024-08-27T10:58:14 IST" name="posUnitPriceandTaxCalculation" finished-at="2024-08-27T10:59:05 IST" duration-ms="51100" status="PASS">
+        <test-method signature="Cash_Customer_Selection_Details_Verification()[pri:0, instance:com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS@2a693f59]" started-at="2024-08-27T16:48:13 IST" name="Cash_Customer_Selection_Details_Verification" finished-at="2024-08-27T16:49:31 IST" duration-ms="77980" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- posUnitPriceandTaxCalculation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation@433defed]" started-at="2024-08-27T10:59:06 IST" name="tearDown" finished-at="2024-08-27T10:59:06 IST" duration-ms="237" status="PASS">
+        </test-method> <!-- Cash_Customer_Selection_Details_Verification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS@2a693f59]" started-at="2024-08-27T16:49:31 IST" name="tearDown" finished-at="2024-08-27T16:49:31 IST" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation -->
+      </class> <!-- com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

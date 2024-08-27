@@ -14,6 +14,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import com.idzlink.utilities.AbstractComponents;
 
@@ -147,11 +148,29 @@ public class PointofSale extends AbstractComponents {
 	@CacheLookup
 	WebElement totaltax;
 	
+	@FindBy(xpath="//div[@class='addcustomer-row']")
+	@CacheLookup
+	WebElement customerselectionbtn;
 	
+	@FindBy(xpath="//select[@id='ddlCustomer']")
+	@CacheLookup
+	WebElement customerdropdown;
 	
+	@FindBy(xpath="//input[@id='txtname']")
+	@CacheLookup
+	WebElement name;
 	
+	@FindBy(xpath="//input[@id='txtEmail']")
+	@CacheLookup
+	WebElement email;
 	
+	@FindBy(xpath="//input[@id='txtTIN']")
+	@CacheLookup
+	WebElement tin;
 	
+	@FindBy(xpath="//span[@class='btn btn-primary btn-continue-cust']")
+	@CacheLookup
+	WebElement continuebtn;
 	
 	
 	public void Posopen()
@@ -354,7 +373,49 @@ public class PointofSale extends AbstractComponents {
 	}
 	
 	
+	public void customerselection(String customername)
+	{
+		customerselectionbtn.click();
+		
+		Select customers = new Select(customerdropdown);
+
+		// Get all options from the dropdown
+		List<WebElement> allOptions = customers.getOptions();
+
+		// Loop through each option and select the one that contains the desired substring
+		for (WebElement option : allOptions)
+		{
+		    if (option.getText().contains(customername))
+		    {
+		        customers.selectByVisibleText(option.getText());
+		        break;
+		    }
+		    
+	}
+	}
+	
+	public Map<String, String> customerfetch() throws InterruptedException
+	{
+		Thread.sleep(1000);
+	String customername=	name.getAttribute("value");
+	String customeremail=	email.getAttribute("value");
+	String customertin=	tin.getAttribute("value");
+	
+	Map<String, String> customerInfo = new HashMap<>();
+    customerInfo.put("name", customername);
+    customerInfo.put("email", customeremail);
+    customerInfo.put("tin", customertin);
+    
+    continuebtn.click();
+    
+    return customerInfo;
+	
+	}
+	
+	
 	
 	
 	
 }
+
+

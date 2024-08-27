@@ -44,62 +44,9 @@ public class BaseClass {
 	public static Logger logger;
 	public Properties prop;
 
-	/*
-	@SuppressWarnings("deprecation")
-	@Parameters("browser")
-	@BeforeClass(alwaysRun=true)
-	public void setup(@Optional("chrome") String br)
-	{
-						
-		logger=Logger.getLogger("IDZlink logs");
-		PropertyConfigurator.configure("Log4j.properties");
-		
-		if(br.equals("chrome"))
-		{
-		System.setProperty("webdriver.chrome.driver",readconfig.getChromepath());
-		driver=new ChromeDriver();
-		}
-		else if(br.equals("edge"))
-		{
-			System.setProperty("webdriver.edge.driver",readconfig.getEdgepath());
-			driver=new EdgeDriver();
-		}
-		
-		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		//driver.manage().window().maximize();
-		driver.manage().window().setSize(new Dimension(1440,900));
-		driver.get(baseURL);
-		
-	}
-	    prop = new Properties();
-	*/
 	
-	/*@BeforeClass
-	public void setup() {
-	    // Logger configuration
-	    logger = Logger.getLogger("ebanking");
-	    PropertyConfigurator.configure("Log4j.properties");
-	    prop = new Properties();
-	    
-	    // Get the browser name from the command line or default to "chrome"
-	    String br = System.getProperty("browser")!=null ? System.getProperty("browser") :prop.getProperty("browser");
-
-	    // Initialize WebDriver based on the specified browser
-	    if (br.equalsIgnoreCase("chrome")) {
-	        System.setProperty("webdriver.chrome.driver", readconfig.getChromepath());
-	        driver = new ChromeDriver();
-	    } else if (br.equalsIgnoreCase("edge")) {
-	        System.setProperty("webdriver.edge.driver", readconfig.getEdgepath());
-	        driver = new EdgeDriver();
-	    } else {
-	        throw new IllegalArgumentException("Unsupported browser: " + br);
-	    }
-
-	    // WebDriver configuration
-	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	    driver.manage().window().setSize(new Dimension(1440, 900));
-	    driver.get(baseURL);
-	}*/
+	
+	
 	
 	@BeforeClass
     public void setup() {
@@ -184,6 +131,12 @@ public class BaseClass {
 	{
 		String generatedstring=RandomStringUtils.randomAlphabetic(5);
 		return generatedstring;
+	}
+	
+	public  String randomeTin()
+	{
+		String generatedstring2=RandomStringUtils.randomNumeric(10);
+		return generatedstring2;
 	}
 	
 	public String randomeNum()

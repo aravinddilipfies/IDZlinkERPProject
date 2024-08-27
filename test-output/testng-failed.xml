@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation">
+      <class name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS">
         <methods>
-          <include name="posUnitPriceandTaxCalculation"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="Cash_Customer_Selection_Details_Verification"/>
         </methods>
-      </class> <!-- com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation -->
+      </class> <!-- com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -77,6 +77,27 @@ public class CustomerPage extends AbstractComponents  {
 	@CacheLookup
 	WebElement editbtn;
 	
+	@FindBy(xpath="//input[@id='txtTIN']")
+	@CacheLookup
+	WebElement tinelement;
+	
+	@FindBy(id="CustomerShopTab")
+	@CacheLookup
+	WebElement customershopdetailtab;
+	
+	@FindBy(xpath="//input[@class='shopchckbox clsshop1']")
+	@CacheLookup
+	WebElement shopchkbox;
+	
+	@FindBy(xpath="//span[@id='span1']")
+	@CacheLookup
+	WebElement customerclosebtn;
+	
+	//span[@id='span1']
+	
+	
+	
+	
 	
 			
 			
@@ -233,7 +254,22 @@ public class CustomerPage extends AbstractComponents  {
 		txtsearch.sendKeys(csearchname);
 	}
 	
+	public void setCustomerTin(String tin)
+	{
+		waitForElementToBeVisible(customername);
+		tinelement.sendKeys(tin);
+	}
 	
+	public void clickCustomerShopDetailtab()
+	{
+		scrollToElement(customershopdetailtab);
+		customershopdetailtab.click();
+	}
+	
+	public void shopselectioncheckbox()
+	{
+		shopchkbox.click();
+	}
 	
 	
 	

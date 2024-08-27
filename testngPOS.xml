@@ -14,6 +14,10 @@
         <class name="com.idzlink.testCases.POS.TC_PointofSalesDelete"/>
         <class name="com.idzlink.testCases.POS.TC_PointofSalesKeybordShotcutCash" />
          <class name="com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum" />
+         <class name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation" />
+          <class name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS" />
+         
+         
         
       
       

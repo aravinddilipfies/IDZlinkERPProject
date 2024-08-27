@@ -10,7 +10,7 @@ import com.idzlink.pageObjects.Homepage;
 import com.idzlink.pageObjects.PointofSale;
 import com.idzlink.testCases.BaseClass;
 
-public class TC_PointofSales_UnitPriceandTaxCalculation extends BaseClass {
+public class TC_PointofSales_UnitPriceandTaxCalculation extends BaseClass  {
 	
 	@Test
 	public void posUnitPriceandTaxCalculation() throws InterruptedException, IOException
@@ -43,6 +43,7 @@ public class TC_PointofSales_UnitPriceandTaxCalculation extends BaseClass {
 		
 		
 		Map<String, Float> results = ps.calculateTotalPriceAndTax();
+		
 		
 		float itemstotalamount = results.get("sum");
 		System.out.println("sum is" +itemstotalamount );
