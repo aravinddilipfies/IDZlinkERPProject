@@ -3191,3 +3191,13 @@
 2024-08-28 15:19:30,289 [main] INFO ERP - URL is opened
 2024-08-28 15:19:30,878 [main] INFO ERP - Entered Username
 2024-08-28 15:19:30,957 [main] INFO ERP - Entered Password
+2024-09-10 13:44:05,205 [main] INFO ERP - URL is opened
+2024-09-10 13:44:05,568 [main] INFO ERP - Entered Username
+2024-09-10 13:44:05,660 [main] INFO ERP - Entered Password
+2024-09-10 13:44:21,515 [main] INFO ERP - Customer Master Opened
+2024-09-10 13:44:24,990 [main] INFO ERP - Customer General Entered
+2024-09-10 13:44:25,152 [main] INFO ERP - Customer Name Entered
+2024-09-10 13:44:28,393 [main] INFO ERP - Customer Country Selected
+2024-09-10 13:44:28,555 [main] INFO ERP - Customer City Selected
+2024-09-10 13:44:28,699 [main] INFO ERP - Customer Currency Selected
+2024-09-10 13:44:28,838 [main] INFO ERP - Customer Group Selected
