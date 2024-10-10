@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.idzlink.testCases.POS.TC_PointofSales_T001">
+      <class name="com.idzlink.testCases.salesquatation.TC_SalesquatationSave">
         <methods>
-          <include name="posnewmode"/>
+          <include name="savesalesquatation"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.idzlink.testCases.POS.TC_PointofSales_T001 -->
+      </class> <!-- com.idzlink.testCases.salesquatation.TC_SalesquatationSave -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

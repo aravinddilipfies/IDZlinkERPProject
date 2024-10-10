@@ -28,6 +28,7 @@ public class TC_PointofSales_T001 extends BaseClass {
 		Thread.sleep(1000);
 		hp.salesandreturnexpand();
 		Thread.sleep(2000);
+		
 		PointofSale ps = new PointofSale(driver);
 		ps.Posopen();
 		driver.switchTo().frame("frame1");
