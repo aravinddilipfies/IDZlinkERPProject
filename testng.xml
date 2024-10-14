@@ -10,7 +10,7 @@
 		<parameter name="browser" value="chrome"></parameter>
 
 		<classes>
-	<!-- 		<class name="com.idzlink.testCases.TC_LoginTest_001" />
+	 		<class name="com.idzlink.testCases.TC_LoginTest_001" />
 			<class name="com.idzlink.testCases.TC_LoginDDT_002" />
 			<class name="com.idzlink.testCases.TC_CustomerNew_T003" />
 			<class name="com.idzlink.testCases.TC_CustomerEdit_T004" />
@@ -33,9 +33,21 @@
 			<class
 				name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation" />
 			<class
-				name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS" />  -->
+				name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS" /> 
 	<class 	name="com.idzlink.testCases.salesquatation.TC_SalesquatationSave" />
 			
+<class name="com.idzlink.testCases.salesquatation.TC_salesquatitiondelete"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_SalesquatationSave"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_SalesquatationShortcutsave"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_salesQuatationEditTotalamoutValidation"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_serachentersalesquotation"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_refreshsalesquotation"/>
+
+
+
 
 
 		</classes>

@@ -173,6 +173,15 @@ public class PointofSale extends AbstractComponents {
 	WebElement continuebtn;
 	
 	
+	@FindBy(xpath="//i[@class='fa fa-download']")
+	@CacheLookup
+	WebElement downloadquotationbutton;
+	
+	@FindBy(xpath="//div[@class='modal-body text-center quotation-details quotationData']//div[1]//div[3]")
+	@CacheLookup
+	WebElement quatationselection;
+	
+	
 	public void Posopen()
 	{
 		posEle.click();
@@ -410,10 +419,18 @@ public class PointofSale extends AbstractComponents {
     
     return customerInfo;
 	
+    
 	}
 	
+	public void quptationbutton()
+	{
+		downloadquotationbutton.click();
+	}
 	
-	
+	public void selectionquotation()
+	{
+		quatationselection.click();
+	}
 	
 	
 }

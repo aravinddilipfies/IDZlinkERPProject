@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.idzlink.testCases.salesquatation.TC_SalesquatationSave">
+      <class name="com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation">
         <methods>
-          <include name="savesalesquatation"/>
+          <include name="validationoftotalamountsalesquotation"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.idzlink.testCases.salesquatation.TC_SalesquatationSave -->
+      </class> <!-- com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

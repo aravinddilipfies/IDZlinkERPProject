@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <listeners>
+    <listener class-name="com.idzlink.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="IDZlink Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.idzlink.testCases.TC_LoginTest_001">
+      <class name="com.idzlink.testCases.salesquatation.TC_serachentersalesquotation">
         <methods>
-          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="serachentersalesquotation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.salesquatation.TC_serachentersalesquotation -->
+      <class name="com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave">
+        <methods>
+          <include name="salesquatationConfirmSave"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.idzlink.testCases.TC_LoginTest_001 -->
+      </class> <!-- com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave -->
+      <class name="com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos">
+        <methods>
+          <include name="covertionofsalesquatationtopos"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- IDZlink Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

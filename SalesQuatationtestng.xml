@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+ <listeners>
+		<listener class-name="com.idzlink.utilities.Reporting" />
+	</listeners>
+ 
+ 
+ 
+ <test thread-count="1" name="IDZlink Test">
+		<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.idzlink.testCases.salesquatation.TC_salesquatitiondelete"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_SalesquatationSave"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_SalesquatationShortcutsave"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_salesQuatationEditTotalamoutValidation"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_serachentersalesquotation"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_refreshsalesquotation"/>
+    
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
