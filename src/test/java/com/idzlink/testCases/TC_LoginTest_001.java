@@ -11,7 +11,7 @@ import com.idzlink.pageObjects.LoginPage;
 public class TC_LoginTest_001 extends BaseClass  {
 
 	@Test
-	public void loginTest() throws IOException
+	public void loginTest() throws IOException, InterruptedException
 	{
 		
 		
@@ -27,7 +27,7 @@ public class TC_LoginTest_001 extends BaseClass  {
 		
 		lp.clickSubmit();
 		
-		
+		Thread.sleep(5000);
 		
 		if(driver.getTitle().equals("Cloud ERP| IDZlink Home"))
 		{

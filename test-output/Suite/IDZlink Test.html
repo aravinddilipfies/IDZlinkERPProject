@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>IDZlink Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 11 14:28:24 IST 2024</td>
+<td>Started on:</td><td>Mon Oct 14 12:56:11 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>262 seconds (262193 ms)</td>
+<tr><td>Total time:</td><td>388 seconds (388630 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,100 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.idzlink.testCases.salesquatation.TC_serachentersalesquotation.serachentersalesquotation()'><b>serachentersalesquotation</b><br>Test class: com.idzlink.testCases.salesquatation.TC_serachentersalesquotation</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;introjs-skipbutton&quot; role=&quot;button&quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt; is not clickable at point (237, 323). Other element would receive the click: &lt;div class=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=129.0.6668.90)
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d1c67836c6d934e5b6ecdc875b86b5f9, clickElement {id=f.9BE734D00AE511607DC046855E1D28F0.d.08B1A9A80827B66821DC6920317E9D61.e.96}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\FIES41~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60710}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60710/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (d1c67836c6d934e5b6ecdc875b86b5f9)] -&gt; xpath: //a[normalize-space()=&apos;×&apos;]]
-Session ID: d1c67836c6d934e5b6ecdc875b86b5f9
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at com.idzlink.pageObjects.LoginPage.closebtn(LoginPage.java:65)
-	at com.idzlink.testCases.BaseClass.intilization(BaseClass.java:162)
-	at com.idzlink.testCases.salesquatation.TC_serachentersalesquotation.serachentersalesquotation(TC_serachentersalesquotation.java:16)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1357663228", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1357663228'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;introjs-skipbutton&quot; role=&quot;button&quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt; is not clickable at point (237, 323). Other element would receive the click: &lt;div class=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=129.0.6668.90)
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d1c67836c6d934e5b6ecdc875b86b5f9, clickElement {id=f.9BE734D00AE511607DC046855E1D28F0.d.08B1A9A80827B66821DC6920317E9D61.e.96}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\FIES41~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60710}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60710/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (d1c67836c6d934e5b6ecdc875b86b5f9)] -&gt; xpath: //a[normalize-space()=&apos;×&apos;]]
-Session ID: d1c67836c6d934e5b6ecdc875b86b5f9
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at com.idzlink.pageObjects.LoginPage.closebtn(LoginPage.java:65)
-	at com.idzlink.testCases.BaseClass.intilization(BaseClass.java:162)
-	at com.idzlink.testCases.salesquatation.TC_serachentersalesquotation.serachentersalesquotation(TC_serachentersalesquotation.java:16)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>8</td>
-<td>com.idzlink.testCases.salesquatation.TC_serachentersalesquotation@131ef10</td></tr>
-<tr>
 <td title='com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave.salesquatationConfirmSave()'><b>salesquatationConfirmSave</b><br>Test class: com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave</td>
 <td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;introjs-skipbutton&quot; role=&quot;button&quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt; is not clickable at point (237, 323). Other element would receive the click: &lt;div class=&quot;loader&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=129.0.6668.90)
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e8e03e2806406cd9471c2d764b72f4da, clickElement {id=f.6CD44BE54BA3E6C5E60F3C5C840D5BA5.d.A1F8428E1D08F1EBDD0A523E015148E6.e.119}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\FIES41~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60751}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60751/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e8e03e2806406cd9471c2d764b72f4da)] -&gt; xpath: //a[normalize-space()=&apos;×&apos;]]
-Session ID: e8e03e2806406cd9471c2d764b72f4da
+Command: [c0429496fee7b6c839f3d32db0ea0f68, clickElement {id=f.48785A5D5C36E2755198B7933ADB77E3.d.06760EA39EDB476A083E66A1D595BDD1.e.117}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\FIES41~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53141/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c0429496fee7b6c839f3d32db0ea0f68)] -&gt; xpath: //a[normalize-space()=&apos;×&apos;]]
+Session ID: c0429496fee7b6c839f3d32db0ea0f68
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -185,16 +101,16 @@ Session ID: e8e03e2806406cd9471c2d764b72f4da
 	at com.idzlink.testCases.BaseClass.intilization(BaseClass.java:162)
 	at com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave.salesquatationConfirmSave(TC_salesquatationConfirmSave.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1968861720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1968861720'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;introjs-skipbutton&quot; role=&quot;button&quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt; is not clickable at point (237, 323). Other element would receive the click: &lt;div class=&quot;loader&quot;&gt;...&lt;/div&gt;
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1758917774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1758917774'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;introjs-skipbutton&quot; role=&quot;button&quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt; is not clickable at point (237, 323). Other element would receive the click: &lt;div class=&quot;loader&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=129.0.6668.90)
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e8e03e2806406cd9471c2d764b72f4da, clickElement {id=f.6CD44BE54BA3E6C5E60F3C5C840D5BA5.d.A1F8428E1D08F1EBDD0A523E015148E6.e.119}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\FIES41~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60751}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60751/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e8e03e2806406cd9471c2d764b72f4da)] -&gt; xpath: //a[normalize-space()=&apos;×&apos;]]
-Session ID: e8e03e2806406cd9471c2d764b72f4da
+Command: [c0429496fee7b6c839f3d32db0ea0f68, clickElement {id=f.48785A5D5C36E2755198B7933ADB77E3.d.06760EA39EDB476A083E66A1D595BDD1.e.117}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\FIES41~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53141/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c0429496fee7b6c839f3d32db0ea0f68)] -&gt; xpath: //a[normalize-space()=&apos;×&apos;]]
+Session ID: c0429496fee7b6c839f3d32db0ea0f68
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -214,90 +130,6 @@ Session ID: e8e03e2806406cd9471c2d764b72f4da
 	at com.idzlink.pageObjects.LoginPage.closebtn(LoginPage.java:65)
 	at com.idzlink.testCases.BaseClass.intilization(BaseClass.java:162)
 	at com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave.salesquatationConfirmSave(TC_salesquatationConfirmSave.java:17)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>6</td>
-<td>com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave@55b0dcab</td></tr>
-<tr>
-<td title='com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos.covertionofsalesquatationtopos()'><b>covertionofsalesquatationtopos</b><br>Test class: com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;introjs-skipbutton&quot; role=&quot;button&quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt; is not clickable at point (237, 323). Other element would receive the click: &lt;div class=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=129.0.6668.90)
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fb24a6a425db293d73604d7976394101, clickElement {id=f.0F69CBB0BCA375AE87F8F3EA3374050F.d.F835C3DAF1EAC4A19B6538055E843A7A.e.117}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\FIES41~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60606}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60606/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (fb24a6a425db293d73604d7976394101)] -&gt; xpath: //a[normalize-space()=&apos;×&apos;]]
-Session ID: fb24a6a425db293d73604d7976394101
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at com.idzlink.pageObjects.LoginPage.closebtn(LoginPage.java:65)
-	at com.idzlink.testCases.BaseClass.intilization(BaseClass.java:162)
-	at com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos.covertionofsalesquatationtopos(TC_covertionofsalesquatationtopos.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1161332079", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1161332079'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;introjs-skipbutton&quot; role=&quot;button&quot; tabindex=&quot;0&quot;&gt;...&lt;/a&gt; is not clickable at point (237, 323). Other element would receive the click: &lt;div class=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=129.0.6668.90)
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fb24a6a425db293d73604d7976394101, clickElement {id=f.0F69CBB0BCA375AE87F8F3EA3374050F.d.F835C3DAF1EAC4A19B6538055E843A7A.e.117}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\FIES41~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60606}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60606/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (fb24a6a425db293d73604d7976394101)] -&gt; xpath: //a[normalize-space()=&apos;×&apos;]]
-Session ID: fb24a6a425db293d73604d7976394101
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-	at com.idzlink.pageObjects.LoginPage.closebtn(LoginPage.java:65)
-	at com.idzlink.testCases.BaseClass.intilization(BaseClass.java:162)
-	at com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos.covertionofsalesquatationtopos(TC_covertionofsalesquatationtopos.java:18)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -326,7 +158,89 @@ Session ID: fb24a6a425db293d73604d7976394101
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>11</td>
-<td>com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos@6c40365c</td></tr>
+<td>com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave@55b0dcab</td></tr>
+<tr>
+<td title='com.idzlink.testCases.salesquatation.TC_salesquatitiondelete.salesquatitiondelete()'><b>salesquatitiondelete</b><br>Test class: com.idzlink.testCases.salesquatation.TC_salesquatitiondelete</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.90)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2bc6fb344aa8d980231e365a9de53f84, clickElement {id=f.1184B41D59BC2D84316254E2DEC2782B.d.FBD7B5BAB75F6396F9B8A9058EC17150.e.182}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\FIES41~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52652/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2bc6fb344aa8d980231e365a9de53f84)] -&gt; xpath: //span[@class=&apos;maincatName&apos;][normalize-space()=&apos;Sales Quotation&apos;]]
+Session ID: 2bc6fb344aa8d980231e365a9de53f84
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.idzlink.pageObjects.SalesQuatation.opensalesquatation(SalesQuatation.java:125)
+	at com.idzlink.testCases.salesquatation.TC_salesquatitiondelete.salesquatitiondelete(TC_salesquatitiondelete.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1911600942", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1911600942'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.90)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2bc6fb344aa8d980231e365a9de53f84, clickElement {id=f.1184B41D59BC2D84316254E2DEC2782B.d.FBD7B5BAB75F6396F9B8A9058EC17150.e.182}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\FIES41~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52652/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2bc6fb344aa8d980231e365a9de53f84)] -&gt; xpath: //span[@class=&apos;maincatName&apos;][normalize-space()=&apos;Sales Quotation&apos;]]
+Session ID: 2bc6fb344aa8d980231e365a9de53f84
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+	at com.idzlink.pageObjects.SalesQuatation.opensalesquatation(SalesQuatation.java:125)
+	at com.idzlink.testCases.salesquatation.TC_salesquatitiondelete.salesquatitiondelete(TC_salesquatitiondelete.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>48</td>
+<td>com.idzlink.testCases.salesquatation.TC_salesquatitiondelete@4c178a76</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -337,35 +251,40 @@ Session ID: fb24a6a425db293d73604d7976394101
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.idzlink.testCases.salesquatation.TC_SalesquatationSave.savesalesquatation()'><b>savesalesquatation</b><br>Test class: com.idzlink.testCases.salesquatation.TC_SalesquatationSave</td>
-<td></td>
-<td>35</td>
-<td>com.idzlink.testCases.salesquatation.TC_SalesquatationSave@77f1baf5</td></tr>
-<tr>
 <td title='com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation.validationoftotalamountsalesquotation()'><b>validationoftotalamountsalesquotation</b><br>Test class: com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation</td>
 <td></td>
-<td>32</td>
+<td>33</td>
 <td>com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation@7d20d0b</td></tr>
+<tr>
+<td title='com.idzlink.testCases.salesquatation.TC_serachentersalesquotation.serachentersalesquotation()'><b>serachentersalesquotation</b><br>Test class: com.idzlink.testCases.salesquatation.TC_serachentersalesquotation</td>
+<td></td>
+<td>39</td>
+<td>com.idzlink.testCases.salesquatation.TC_serachentersalesquotation@131ef10</td></tr>
+<tr>
+<td title='com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos.covertionofsalesquatationtopos()'><b>covertionofsalesquatationtopos</b><br>Test class: com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos</td>
+<td></td>
+<td>94</td>
+<td>com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos@6c40365c</td></tr>
+<tr>
+<td title='com.idzlink.testCases.salesquatation.TC_refreshsalesquotation.refreshsalesquotation()'><b>refreshsalesquotation</b><br>Test class: com.idzlink.testCases.salesquatation.TC_refreshsalesquotation</td>
+<td></td>
+<td>23</td>
+<td>com.idzlink.testCases.salesquatation.TC_refreshsalesquotation@38afe297</td></tr>
+<tr>
+<td title='com.idzlink.testCases.salesquatation.TC_SalesquatationSave.savesalesquatation()'><b>savesalesquatation</b><br>Test class: com.idzlink.testCases.salesquatation.TC_SalesquatationSave</td>
+<td></td>
+<td>36</td>
+<td>com.idzlink.testCases.salesquatation.TC_SalesquatationSave@77f1baf5</td></tr>
 <tr>
 <td title='com.idzlink.testCases.salesquatation.TC_SalesquatationShortcutsave.SalesquatationShortcutsave()'><b>SalesquatationShortcutsave</b><br>Test class: com.idzlink.testCases.salesquatation.TC_SalesquatationShortcutsave</td>
 <td></td>
-<td>35</td>
+<td>34</td>
 <td>com.idzlink.testCases.salesquatation.TC_SalesquatationShortcutsave@41a2befb</td></tr>
 <tr>
 <td title='com.idzlink.testCases.salesquatation.TC_salesQuatationEditTotalamoutValidation.salesQuatationEditTotalamoutValidation()'><b>salesQuatationEditTotalamoutValidation</b><br>Test class: com.idzlink.testCases.salesquatation.TC_salesQuatationEditTotalamoutValidation</td>
 <td></td>
 <td>42</td>
 <td>com.idzlink.testCases.salesquatation.TC_salesQuatationEditTotalamoutValidation@7bedc48a</td></tr>
-<tr>
-<td title='com.idzlink.testCases.salesquatation.TC_salesquatitiondelete.salesquatitiondelete()'><b>salesquatitiondelete</b><br>Test class: com.idzlink.testCases.salesquatation.TC_salesquatitiondelete</td>
-<td></td>
-<td>43</td>
-<td>com.idzlink.testCases.salesquatation.TC_salesquatitiondelete@4c178a76</td></tr>
-<tr>
-<td title='com.idzlink.testCases.salesquatation.TC_refreshsalesquotation.refreshsalesquotation()'><b>refreshsalesquotation</b><br>Test class: com.idzlink.testCases.salesquatation.TC_refreshsalesquotation</td>
-<td></td>
-<td>22</td>
-<td>com.idzlink.testCases.salesquatation.TC_refreshsalesquotation@38afe297</td></tr>
 </table><p>
 </body>
 </html>

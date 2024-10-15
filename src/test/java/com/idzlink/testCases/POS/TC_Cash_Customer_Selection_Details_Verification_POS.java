@@ -42,6 +42,7 @@ intilization();
 		cp.CustomerCountry(5); // country
 		logger.info("Customer Country Selected");
 		
+		Thread.sleep(2000);
 		cp.CustomerCity(1);
 		logger.info("Customer City Selected");
 		
@@ -51,11 +52,13 @@ intilization();
 		cp.CustomerGroup(1);
 		logger.info("Customer Group Selected");
 		
+		Thread.sleep(2000);
 		cp.CustomerDebtoracc(1);
 		
 		
 		String email=customername+"@gmaiil.com";
 		
+		Thread.sleep(2000);
 		cp.setCustomerEmail(email);
 		
 		String tin=randomeTin();

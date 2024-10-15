@@ -204,13 +204,17 @@ public class PointofSale extends AbstractComponents {
 		
 	}
 	
-	public void itemadd()
+	public void itemadd() throws InterruptedException
 	{
 		for(WebElement item: items)
 		{
+			scrollToElement(item);
 			item.click();
+			Thread.sleep(2000);
 			okbtn.click();
+			Thread.sleep(1000);
 			okbtn.click();
+			Thread.sleep(1000);
 		}
 		
 	}
@@ -237,7 +241,10 @@ public class PointofSale extends AbstractComponents {
 	
 	public void checkout() throws InterruptedException
 	{
+		Thread.sleep(2000);
+		scrollToElement(checkoutbtn);
 		checkoutbtn.click();
+		Thread.sleep(2000);
 		clickElement(cashbtn);
 		Thread.sleep(2000);
 		cashbtn.click();
