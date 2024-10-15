@@ -181,6 +181,34 @@ public class PointofSale extends AbstractComponents {
 	@CacheLookup
 	WebElement quatationselection;
 	
+	@FindBy(id="txtItemSearch")
+	@CacheLookup
+	WebElement itemsearchpos;
+	
+	@FindBy(xpath="//div[@class='tiledesc ItemDescription']")
+	@CacheLookup
+	List<WebElement> itemsearchlists;
+	
+	@FindBy(xpath="//div[@class='tiledesc ItemDescription']")
+	@CacheLookup
+	List<WebElement> itemlists;
+	
+	@FindBy(xpath="//label[normalize-space()='Discount']")
+	@CacheLookup
+	WebElement discount;
+	
+	@FindBy(id="btnDiscPerc")
+	@CacheLookup
+	WebElement discountpercentage;
+	
+	@FindBy(id="numpad-search")
+	@CacheLookup
+	WebElement discountpercentagetextbox;
+	
+	@FindBy(id="grandTotal")
+	@CacheLookup
+	WebElement grandtotals;
+	
 	
 	public void Posopen()
 	{
@@ -250,15 +278,17 @@ public class PointofSale extends AbstractComponents {
 		cashbtn.click();
 	}
 	
-	public String SuccessfullMessage()
+	public String SuccessfullMessage() throws InterruptedException
 	
 	{
+		
 		return successfulpopup.getText();
 	}
 	
 	
-	public void conterlogout()
+	public void conterlogout() throws InterruptedException
 	{
+		Thread.sleep(5000);
 		counterlogoutele.click();
 		clickElement(logoutcounter);
 		logoutcounter.click();
@@ -440,6 +470,89 @@ public class PointofSale extends AbstractComponents {
 	}
 	
 	
+	public void barcodesearch() throws InterruptedException
+	
+	{
+		
+		itemsearchpos.sendKeys("1800000021");
+		itemsearchpos.sendKeys(Keys.ENTER);
+		waitForWebElementToAppear(okbtn);
+		okbtn.click();
+		Thread.sleep(1000);
+		okbtn.click();
+		Thread.sleep(1000);
+	}
+	
+public void itemcodesearch() throws InterruptedException
+	
+	{
+		
+		itemsearchpos.sendKeys("18");
+		itemsearchpos.sendKeys(Keys.ENTER);
+		waitForWebElementToAppear(okbtn);
+		okbtn.click();
+		Thread.sleep(1000);
+		okbtn.click();
+		Thread.sleep(1000);
+	}
+	
+public void itemnamesearch() throws InterruptedException
+
+{
+	
+	itemsearchpos.sendKeys("samsung s23");
+	itemsearchpos.sendKeys(Keys.ENTER);
+	System.out.println("item entered");
+	
+	Thread.sleep(2000);
+	for (WebElement itemsearchlist : itemsearchlists) {
+	    if (itemsearchlist.getText().contains("Samsung S23")) {
+	        // Perform actions on the filtered item
+	        System.out.println("Found Samsung S23: " + itemsearchlist.getText());
+	        itemsearchlist.click(); // Example action
+	    }
+	}
+
+	waitForWebElementToAppear(okbtn);
+	okbtn.click();
+	Thread.sleep(1000);
+	okbtn.click();
+	Thread.sleep(1000);
+}
+
+public void firstthreeitems() throws InterruptedException
+{
+	for (int i = 0; i < 3; i++) {
+	    WebElement item = itemlists.get(i);
+	    item.click();  // Click the item
+	    System.out.println("Clicked item: " + item.getText());
+	}
+	waitForWebElementToAppear(okbtn);
+	okbtn.click();
+	Thread.sleep(1000);
+	okbtn.click();
+	Thread.sleep(1000);
+	
+	
+}
+
+public void discountapplying() throws InterruptedException
+{
+	discount.click();
+	Thread.sleep(1000);
+	discountpercentage.click();
+	Thread.sleep(1000);
+	discountpercentagetextbox.sendKeys("10");
+	Thread.sleep(1000);
+	okbtn.click();	
+}
+
+public String getgranttotal() throws InterruptedException
+{
+	Thread.sleep(1000);
+	return grandtotals.getText();
+}
+
 }
 
 
