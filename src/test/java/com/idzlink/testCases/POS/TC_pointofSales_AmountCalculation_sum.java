@@ -36,7 +36,7 @@ public class TC_pointofSales_AmountCalculation_sum extends BaseClass {
 		ps.counterselection();
 		
 		Thread.sleep(2000);
-		ps.itemadd();
+		ps.firstthreeitems();
 		
 		
 		

@@ -34,7 +34,7 @@ public class TC_PointofSales_T001 extends BaseClass {
 		driver.switchTo().frame("frame1");
 		ps.counterselection();
 
-		ps.itemadd();
+		ps.firstthreeitems();
 		double totalamount = ps.gettheitempricesum();
 
 		System.out.println(totalamount);

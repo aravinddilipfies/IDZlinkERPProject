@@ -103,7 +103,7 @@ intilization();
 		System.out.println("email : "+actualemail);
 		System.out.println("tin : "+actualtin);
 		
-		ps.itemadd();
+		ps.firstthreeitems();
 		
 
 		ps.checkout();

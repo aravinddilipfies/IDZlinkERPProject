@@ -33,7 +33,7 @@ public class TC_PointofSales_UnitPriceandTaxCalculation extends BaseClass  {
 		driver.switchTo().frame("frame1");
 		ps.counterselection();
 		
-		ps.itemadd();
+		ps.firstthreeitems();
 		
 		Thread.sleep(2000);
 		

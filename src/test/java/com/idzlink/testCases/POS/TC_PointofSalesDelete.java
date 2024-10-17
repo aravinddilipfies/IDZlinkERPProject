@@ -37,7 +37,7 @@ public class TC_PointofSalesDelete extends BaseClass {
 			ps.counterselection();
 			logger.info("counter selected");
 
-			ps.itemadd();
+			ps.firstthreeitems();
 			logger.info("items added to pos on new mode");
 			
 			double amount = ps.FinalAmount();

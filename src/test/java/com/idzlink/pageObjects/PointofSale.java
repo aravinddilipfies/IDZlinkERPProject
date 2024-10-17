@@ -209,6 +209,17 @@ public class PointofSale extends AbstractComponents {
 	@CacheLookup
 	WebElement grandtotals;
 	
+	@FindBy(id="cbxCredInvo")
+	@CacheLookup
+	WebElement creditbuttoncheckbox;
+	
+	@FindBy(id="ddlCustomer")
+	@CacheLookup
+	WebElement creditcustomerselection;
+	
+	@FindBy(xpath="//span[normalize-space()='Credit']")
+	@CacheLookup
+	WebElement creditbtn;
 	
 	public void Posopen()
 	{
@@ -551,6 +562,88 @@ public String getgranttotal() throws InterruptedException
 {
 	Thread.sleep(1000);
 	return grandtotals.getText();
+}
+
+public void Creditcustomersectionandcreditbox() throws InterruptedException
+{
+	customerselectionbtn.click();
+	Thread.sleep(2000);
+	creditbuttoncheckbox.click();
+}
+
+public void creditcustomerdropdownselection() throws InterruptedException
+{
+	//creditcustomerselection
+	Thread.sleep(2000);
+	Select customer=new Select(creditcustomerselection);
+	customer.selectByVisibleText("credit customer--->RUFIYA");
+	Thread.sleep(3000);
+	continuebtn.click();
+	
+}
+
+public void creditcheckout() throws InterruptedException {
+	checkoutbtn.click();
+	Thread.sleep(1000);
+	creditbtn.click();
+}
+
+public void checkoutshortcutforcredit() throws InterruptedException
+{
+	Actions action=new Actions(driver);
+	action.keyDown(Keys.ALT).sendKeys("S").keyUp(Keys.ALT).perform();
+	Thread.sleep(2000);
+	action.keyDown(Keys.ALT).sendKeys("T").keyUp(Keys.ALT).perform();
+	
+}
+
+
+public void mrpitemadd() throws InterruptedException
+
+{
+	
+	itemsearchpos.sendKeys("MRP");
+	itemsearchpos.sendKeys(Keys.ENTER);
+	System.out.println("item entered");
+	
+	Thread.sleep(3000);
+	for (WebElement itemsearchlist : itemsearchlists) {
+	    if (itemsearchlist.getText().contains("MRP")) {
+	        // Perform actions on the filtered item
+	        System.out.println("Found MRP item " + itemsearchlist.getText());
+	        itemsearchlist.click(); // Example action
+	    }
+	}
+
+	waitForWebElementToAppear(okbtn);
+	okbtn.click();
+	Thread.sleep(1000);
+	okbtn.click();
+	Thread.sleep(1000);
+}
+
+
+public void customeradding(String cname,String cemail, String ctin) throws InterruptedException
+{
+	
+	customerselectionbtn.click();
+	Thread.sleep(2000);
+	name.sendKeys(cname);
+	Thread.sleep(2000);
+	email.sendKeys(cemail);
+	Thread.sleep(2000);
+	tin.sendKeys(ctin);
+	Thread.sleep(2000);
+	continuebtn.click();
+	Thread.sleep(2000);
+	
+	driver.switchTo().alert().accept();
+	Thread.sleep(2000);
+	continuebtn.click();
+	
+	
+	
+	
 }
 
 }

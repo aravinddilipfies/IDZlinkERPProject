@@ -34,7 +34,7 @@ public class TC_PointofSalesEdit extends BaseClass {
 			driver.switchTo().frame("frame1");
 			ps.counterselection();
 
-			ps.itemadd();
+			ps.firstthreeitems();
 			logger.info("items added to pos on new mode");
 			
 			double amount = ps.FinalAmount();

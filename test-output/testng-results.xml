@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-15T14:56:09 IST" name="Default suite" finished-at="2024-10-15T14:57:16 IST" duration-ms="66493">
+  <suite started-at="2024-10-16T11:59:34 IST" name="Default suite" finished-at="2024-10-16T12:00:34 IST" duration-ms="60620">
     <groups>
     </groups>
-    <test started-at="2024-10-15T14:56:09 IST" name="Default test" finished-at="2024-10-15T14:57:16 IST" duration-ms="66493">
-      <class name="com.idzlink.testCases.POS.TC_pointofsalediscount">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.idzlink.testCases.POS.TC_pointofsalediscount@2a693f59]" started-at="2024-10-15T14:56:09 IST" name="setup" finished-at="2024-10-15T14:56:18 IST" duration-ms="9052" status="PASS">
+    <test started-at="2024-10-16T11:59:34 IST" name="Default test" finished-at="2024-10-16T12:00:34 IST" duration-ms="60620">
+      <class name="com.idzlink.testCases.POS.TC_customer_creationinpos">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.idzlink.testCases.POS.TC_customer_creationinpos@367ffa75]" started-at="2024-10-16T11:59:34 IST" name="setup" finished-at="2024-10-16T11:59:37 IST" duration-ms="3460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="pointofsalediscount()[pri:0, instance:com.idzlink.testCases.POS.TC_pointofsalediscount@2a693f59]" started-at="2024-10-15T14:56:18 IST" name="pointofsalediscount" finished-at="2024-10-15T14:57:16 IST" duration-ms="57151" status="PASS">
+        <test-method signature="customer_creationinpos()[pri:0, instance:com.idzlink.testCases.POS.TC_customer_creationinpos@367ffa75]" started-at="2024-10-16T11:59:37 IST" name="customer_creationinpos" finished-at="2024-10-16T12:00:34 IST" duration-ms="56710" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pointofsalediscount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.idzlink.testCases.POS.TC_pointofsalediscount@2a693f59]" started-at="2024-10-15T14:57:16 IST" name="tearDown" finished-at="2024-10-15T14:57:16 IST" duration-ms="247" status="PASS">
+        </test-method> <!-- customer_creationinpos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.idzlink.testCases.POS.TC_customer_creationinpos@367ffa75]" started-at="2024-10-16T12:00:34 IST" name="tearDown" finished-at="2024-10-16T12:00:34 IST" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.idzlink.testCases.POS.TC_pointofsalediscount -->
+      </class> <!-- com.idzlink.testCases.POS.TC_customer_creationinpos -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
