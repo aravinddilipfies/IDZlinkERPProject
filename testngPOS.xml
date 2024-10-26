@@ -8,20 +8,23 @@
   <test thread-count="5" name="POS TEST">
   <parameter name="browser" value="edge"></parameter>
     <classes>
-  
+      <class name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation"/>
+      <class name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS"/>
+      <class name="com.idzlink.testCases.POS.TC_PointofSalesEdit"/>
+      <class name="com.idzlink.testCases.POS.TC_PointofSalesDelete"/>
+      <class name="com.idzlink.testCases.POS.TC_pointofsalesbarcodesearch"/>
+      <class name="com.idzlink.testCases.POS.TC_pointofsalesitemcodesearch"/>
       <class name="com.idzlink.testCases.POS.TC_PointofSales_T001"/>
-       <class name="com.idzlink.testCases.POS.TC_PointofSalesEdit"/>
-        <class name="com.idzlink.testCases.POS.TC_PointofSalesDelete"/>
-        <class name="com.idzlink.testCases.POS.TC_PointofSalesKeybordShotcutCash" />
-         <class name="com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum" />
-         <class name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation" />
-          <class name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS" />
-         
-         
-        
-      
-      
-    
+      <class name="com.idzlink.testCases.POS.TC_shortcut_creditcustomer_pos"/>
+      <class name="com.idzlink.testCases.POS.TC_PointofSalesKeybordShotcutCash"/>
+      <class name="com.idzlink.testCases.POS.TC_pointofsalediscount"/>
+      <class name="com.idzlink.testCases.POS.TC_MRPitemaddingpos"/>
+      <class name="com.idzlink.testCases.POS.TC_costpricevalidationhandling_pos"/>
+      <class name="com.idzlink.testCases.POS.TC_customer_creationinpos"/>
+      <class name="com.idzlink.testCases.POS.TC_creditcustomer_selectionandpos"/>
+      <class name="com.idzlink.testCases.POS.TC_sellingpriceabovemrpalert_pos"/>
+      <class name="com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum"/>
+      <class name="com.idzlink.testCases.POS.TC_pointofsaleitemnameserach"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -221,6 +221,24 @@ public class PointofSale extends AbstractComponents {
 	@CacheLookup
 	WebElement creditbtn;
 	
+	@FindBy(id="btnPrice")
+	@CacheLookup
+	WebElement pricebtn;
+	
+	@FindBy(id="numpad-search")
+	@CacheLookup
+	WebElement numpadpricesearch;
+	
+	
+	@FindBy(xpath="//div[@class='alertcontent']//span[2]")
+	@CacheLookup
+	WebElement costpricealertbtn;
+	
+	@FindBy(xpath="//div[@class='alertcontent']//span[2]")
+	@CacheLookup
+	WebElement mrpalertbtn;
+	
+	
 	public void Posopen()
 	{
 		posEle.click();
@@ -640,11 +658,48 @@ public void customeradding(String cname,String cemail, String ctin) throws Inter
 	driver.switchTo().alert().accept();
 	Thread.sleep(2000);
 	continuebtn.click();
+
+}
+public void costpriceitemsearch() throws InterruptedException // item rate editing cost price wise
+
+{
 	
-	
-	
+	itemsearchpos.sendKeys("28");
+	itemsearchpos.sendKeys(Keys.ENTER);
+	System.out.println("item entered");
+	pricebtn.click();
+	numpadpricesearch.sendKeys("9");
+	numpadpricesearch.sendKeys(Keys.ENTER);
+	okbtn.click();	
 	
 }
+
+public String costpricealert() 
+{
+	return costpricealertbtn.getText();
+
+}
+
+public void mrppriceitemsearch() throws InterruptedException // item rate editing mrp wise
+
+{
+	
+	itemsearchpos.sendKeys("26");
+	itemsearchpos.sendKeys(Keys.ENTER);
+	System.out.println("item entered");
+	pricebtn.click();
+	numpadpricesearch.sendKeys("501");
+	numpadpricesearch.sendKeys(Keys.ENTER);
+	okbtn.click();	
+	
+}
+
+public String mrppricealert() 
+{
+	return mrpalertbtn.getText();
+
+}
+
 
 }
 

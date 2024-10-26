@@ -1,56 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="IDZlink Test Suit">
+	
 	<listeners>
 		<listener class-name="com.idzlink.utilities.Reporting" />
-
-
 	</listeners>
+	
 	<test thread-count="1" name="IDZlink Test">
 		<parameter name="browser" value="chrome"></parameter>
 
-		<classes>
-	 		<class name="com.idzlink.testCases.TC_LoginTest_001" />
-			<class name="com.idzlink.testCases.TC_LoginDDT_002" />
-			<class name="com.idzlink.testCases.TC_CustomerNew_T003" />
-			<class name="com.idzlink.testCases.TC_CustomerEdit_T004" />
-			<class name="com.idzlink.testCases.TC_SupplierNew_T005" />
-			<class name="com.idzlink.testCases.TC_SupplierEdit_T006" />
-			<class name="com.idzlink.testCases.TC_CustomsDDT_T007" />
-			<class name="com.idzlink.testCases.TC_MainCategoryNew_T008" />
-			<class name="com.idzlink.testCases.TC_ItemCategoryNew_T009" />
-			<class name="com.idzlink.testCases.TC_UnitNew_T010" />
-			<class name="com.idzlink.testCases.TC_PackingTypeNew" />
-			<class name="com.idzlink.testCases.TC_ItemmasternSave" />
-			<class name="com.idzlink.testCases.TC_CountryMasterNewMode" />
-			<class name="com.idzlink.testCases.POS.TC_PointofSales_T001" />
-			<class name="com.idzlink.testCases.POS.TC_PointofSalesEdit" />
-			<class name="com.idzlink.testCases.POS.TC_PointofSalesDelete" />
-			<class
-				name="com.idzlink.testCases.POS.TC_PointofSalesKeybordShotcutCash" />
-			<class
-				name="com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum" />
-			<class
-				name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation" />
-			<class
-				name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS" /> 
-	<class 	name="com.idzlink.testCases.salesquatation.TC_SalesquatationSave" />
-			
-<class name="com.idzlink.testCases.salesquatation.TC_salesquatitiondelete"/>
-      <class name="com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation"/>
+		  <classes>
+      <class name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation"/>
+      <class name="com.idzlink.testCases.BaseClass"/>
+      <class name="com.idzlink.testCases.TC_MainCategoryNew_T008"/>
+      <class name="com.idzlink.testCases.POS.TC_PointofSalesEdit"/>
+      <class name="com.idzlink.testCases.POS.TC_pointofsalesitemcodesearch"/>
+      <class name="com.idzlink.testCases.POS.TC_pointofsalesbarcodesearch"/>
+      <class name="com.idzlink.testCases.TC_PackingTypeNew"/>
+      <class name="com.idzlink.testCases.POS.TC_PointofSales_T001"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave"/>
+      <class name="com.idzlink.testCases.TC_LoginTest_001"/>
+      <class name="com.idzlink.testCases.TC_ItemCategoryNew_T009"/>
+      <class name="com.idzlink.testCases.TC_CustomsDDT_T007"/>
       <class name="com.idzlink.testCases.salesquatation.TC_SalesquatationSave"/>
+      <class name="com.idzlink.testCases.POS.TC_costpricevalidationhandling_pos"/>
+      <class name="com.idzlink.testCases.TC_UnitNew_T010"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_serachentersalesquotation"/>
+      <class name="com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum"/>
+      <class name="com.idzlink.testCases.TC_ItemmasternSave"/>
+      <class name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS"/>
+      <class name="com.idzlink.testCases.POS.TC_PointofSalesDelete"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_salesquatitiondelete"/>
+      <class name="com.idzlink.testCases.POS.TC_shortcut_creditcustomer_pos"/>
+      <class name="com.idzlink.testCases.POS.TC_PointofSalesKeybordShotcutCash"/>
+      <class name="com.idzlink.testCases.TC_CustomerEdit_T004"/>
+      <class name="com.idzlink.testCases.POS.TC_pointofsalediscount"/>
+      <class name="com.idzlink.testCases.POS.TC_MRPitemaddingpos"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_refreshsalesquotation"/>
+      <class name="com.idzlink.testCases.TC_LoginDDT_002"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation"/>
       <class name="com.idzlink.testCases.salesquatation.TC_SalesquatationShortcutsave"/>
       <class name="com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos"/>
       <class name="com.idzlink.testCases.salesquatation.TC_salesQuatationEditTotalamoutValidation"/>
-      <class name="com.idzlink.testCases.salesquatation.TC_serachentersalesquotation"/>
-      <class name="com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave"/>
-      <class name="com.idzlink.testCases.salesquatation.TC_refreshsalesquotation"/>
-
-
-
-
-
-		</classes>
+      <class name="com.idzlink.testCases.POS.TC_customer_creationinpos"/>
+      <class name="com.idzlink.testCases.TC_CountryMasterNewMode"/>
+      <class name="com.idzlink.testCases.POS.TC_creditcustomer_selectionandpos"/>
+      <class name="com.idzlink.testCases.TC_SupplierEdit_T006"/>
+      <class name="com.idzlink.testCases.TC_SupplierNew_T005"/>
+      <class name="com.idzlink.testCases.POS.TC_sellingpriceabovemrpalert_pos"/>
+      <class name="com.idzlink.testCases.TC_CustomerNew_T003"/>
+      <class name="com.idzlink.testCases.POS.TC_pointofsaleitemnameserach"/>
+       <class name="com.idzlink.testCases.salesquatation.TC_SalesQuatation_BelowCostPrice"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_SalesQuotation_AboveMrpPrice"/>
+      
+    </classes>
 
 	</test> <!--
 	Test -->

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.idzlink.testCases.POS.TC_customer_creationinpos">
+      <class name="com.idzlink.testCases.salesquatation.TC_SalesQuotation_AboveMrpPrice">
         <methods>
-          <include name="customer_creationinpos"/>
+          <include name="SalesQuotation_AboveMrpPrice"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.idzlink.testCases.POS.TC_customer_creationinpos -->
+      </class> <!-- com.idzlink.testCases.salesquatation.TC_SalesQuotation_AboveMrpPrice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

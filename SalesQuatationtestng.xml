@@ -8,19 +8,20 @@
  
  
  
- <test thread-count="1" name="IDZlink Test">
+ <test thread-count="1" name="IDZlink SALES QUATATION Test">
 		<parameter name="browser" value="chrome"></parameter>
     <classes>
+       <class name="com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation"/>
       <class name="com.idzlink.testCases.salesquatation.TC_salesquatitiondelete"/>
-      <class name="com.idzlink.testCases.salesquatation.TC_validationoftotalamountsalesquotation"/>
       <class name="com.idzlink.testCases.salesquatation.TC_SalesquatationSave"/>
       <class name="com.idzlink.testCases.salesquatation.TC_SalesquatationShortcutsave"/>
       <class name="com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos"/>
       <class name="com.idzlink.testCases.salesquatation.TC_salesQuatationEditTotalamoutValidation"/>
       <class name="com.idzlink.testCases.salesquatation.TC_serachentersalesquotation"/>
+      <class name="com.idzlink.testCases.salesquatation.TC_SalesQuatation_BelowCostPrice"/>
       <class name="com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave"/>
       <class name="com.idzlink.testCases.salesquatation.TC_refreshsalesquotation"/>
-    
+     <class name="com.idzlink.testCases.salesquatation.TC_SalesQuotation_AboveMrpPrice"/>
     
     </classes>
   </test> <!-- Test -->

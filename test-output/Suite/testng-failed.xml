@@ -4,23 +4,23 @@
   <listeners>
     <listener class-name="com.idzlink.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="IDZlink Test(failed)">
+  <test thread-count="5" name="IDZlink SALES QUATATION Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave">
+      <class name="com.idzlink.testCases.salesquatation.TC_SalesQuotation_AboveMrpPrice">
         <methods>
-          <include name="salesquatationConfirmSave"/>
+          <include name="SalesQuotation_AboveMrpPrice"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave -->
-      <class name="com.idzlink.testCases.salesquatation.TC_salesquatitiondelete">
+      </class> <!-- com.idzlink.testCases.salesquatation.TC_SalesQuotation_AboveMrpPrice -->
+      <class name="com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos">
         <methods>
-          <include name="salesquatitiondelete"/>
+          <include name="covertionofsalesquatationtopos"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.idzlink.testCases.salesquatation.TC_salesquatitiondelete -->
+      </class> <!-- com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos -->
     </classes>
-  </test> <!-- IDZlink Test(failed) -->
+  </test> <!-- IDZlink SALES QUATATION Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

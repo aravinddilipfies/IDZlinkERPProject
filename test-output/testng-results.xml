@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-16T11:59:34 IST" name="Default suite" finished-at="2024-10-16T12:00:34 IST" duration-ms="60620">
+  <suite started-at="2024-10-26T13:41:27 IST" name="Failed suite [Failed suite [Suite]]" finished-at="2024-10-26T13:43:09 IST" duration-ms="102258">
     <groups>
     </groups>
-    <test started-at="2024-10-16T11:59:34 IST" name="Default test" finished-at="2024-10-16T12:00:34 IST" duration-ms="60620">
-      <class name="com.idzlink.testCases.POS.TC_customer_creationinpos">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.idzlink.testCases.POS.TC_customer_creationinpos@367ffa75]" started-at="2024-10-16T11:59:34 IST" name="setup" finished-at="2024-10-16T11:59:37 IST" duration-ms="3460" status="PASS">
+    <test started-at="2024-10-26T13:41:27 IST" name="IDZlink SALES QUATATION Test(failed)(failed)" finished-at="2024-10-26T13:43:09 IST" duration-ms="102258">
+      <class name="com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos@2925bf5b]" started-at="2024-10-26T13:41:27 IST" name="setup" finished-at="2024-10-26T13:41:30 IST" duration-ms="3368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="customer_creationinpos()[pri:0, instance:com.idzlink.testCases.POS.TC_customer_creationinpos@367ffa75]" started-at="2024-10-16T11:59:37 IST" name="customer_creationinpos" finished-at="2024-10-16T12:00:34 IST" duration-ms="56710" status="PASS">
+        <test-method signature="covertionofsalesquatationtopos()[pri:0, instance:com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos@2925bf5b]" started-at="2024-10-26T13:41:30 IST" name="covertionofsalesquatationtopos" finished-at="2024-10-26T13:43:09 IST" duration-ms="98317" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- customer_creationinpos -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.idzlink.testCases.POS.TC_customer_creationinpos@367ffa75]" started-at="2024-10-16T12:00:34 IST" name="tearDown" finished-at="2024-10-16T12:00:34 IST" duration-ms="401" status="PASS">
+        </test-method> <!-- covertionofsalesquatationtopos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos@2925bf5b]" started-at="2024-10-26T13:43:09 IST" name="tearDown" finished-at="2024-10-26T13:43:09 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.idzlink.testCases.POS.TC_customer_creationinpos -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos -->
+    </test> <!-- IDZlink SALES QUATATION Test(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Suite]] -->
 </testng-results>

@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="com.idzlink.utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="IDZlink Test(failed)(failed)">
+  <test thread-count="5" name="IDZlink SALES QUATATION Test(failed)(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave">
+      <class name="com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos">
         <methods>
-          <include name="salesquatationConfirmSave"/>
+          <include name="covertionofsalesquatationtopos"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.idzlink.testCases.salesquatation.TC_salesquatationConfirmSave -->
+      </class> <!-- com.idzlink.testCases.salesquatation.TC_covertionofsalesquatationtopos -->
     </classes>
-  </test> <!-- IDZlink Test(failed)(failed) -->
+  </test> <!-- IDZlink SALES QUATATION Test(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

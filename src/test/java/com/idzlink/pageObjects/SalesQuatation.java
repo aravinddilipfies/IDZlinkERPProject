@@ -118,7 +118,9 @@ public class SalesQuatation extends AbstractComponents{
 	@CacheLookup
 	WebElement searcheditem;
 	
-	
+	@FindBy(xpath="//*[@id=\"posItemcartdetails\"]/div[1]/div/div/div[2]/div[2]/div/input")
+	@CacheLookup
+	WebElement rate;
 	
 	public void opensalesquatation()
 	{
@@ -246,9 +248,49 @@ public void shortcutforsave()
 		searcheditem.click();
 	}
 	
+	public void ratesearch() throws InterruptedException
+	{
+		txtsearch.sendKeys("28");
+		txtsearch.sendKeys(Keys.ENTER);
+		Thread.sleep(1000);
+		searcheditem.click();
+		Thread.sleep(1000);
+		itemdropdown1.click();
+		Thread.sleep(1000);
+		//rate.click();
+		scrollToElement(rate);
+		//rate.click();
+		
+		  Actions actions = new Actions(driver);
+
+	        // Perform double-click action
+	        actions.doubleClick(rate).perform();
+		
+		
+		
+	//	Thread.sleep(2000);
+	//	rate.clear();
+		Thread.sleep(1000);
+		rate.sendKeys("9");
+		Thread.sleep(1000);
+		quantity.click();
+	}
 	
-	
-	
-	
-	
+	public void mrpsearch() throws InterruptedException
+	{
+		txtsearch.sendKeys("26");
+		txtsearch.sendKeys(Keys.ENTER);
+		Thread.sleep(1000);
+		searcheditem.click();
+		Thread.sleep(1000);
+		itemdropdown1.click();
+		Thread.sleep(1000);
+		scrollToElement(rate);
+		 Actions actions = new Actions(driver);
+
+	        // Perform double-click action
+	        actions.doubleClick(rate).perform();
+	        Thread.sleep(2000);
+			rate.sendKeys("501");
+	}
 }
