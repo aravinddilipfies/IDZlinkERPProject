@@ -3894,3 +3894,475 @@
 2024-10-26 13:41:30,796 - ERP -INFO - URL is opened
 2024-10-26 13:41:30,962 - ERP -INFO - Entered Username
 2024-10-26 13:41:31,091 - ERP -INFO - Entered Password
+2024-10-28 12:20:00,460 - ERP -INFO - URL is opened
+2024-10-28 12:20:00,659 - ERP -INFO - Entered Username
+2024-10-28 12:20:00,759 - ERP -INFO - Entered Password
+2024-10-28 12:20:30,194 - ERP -INFO - URL is opened
+2024-10-28 12:20:30,284 - ERP -INFO - Entered Username
+2024-10-28 12:20:30,400 - ERP -INFO - Entered Password
+2024-10-28 12:20:41,974 - ERP -INFO - Customer Master Opened
+2024-10-28 12:20:45,271 - ERP -INFO - Customer General Entered
+2024-10-28 12:20:45,386 - ERP -INFO - Customer Name Entered
+2024-10-28 12:20:48,658 - ERP -INFO - Customer Country Selected
+2024-10-28 12:20:50,795 - ERP -INFO - Customer City Selected
+2024-10-28 12:20:50,922 - ERP -INFO - Customer Currency Selected
+2024-10-28 12:20:51,044 - ERP -INFO - Customer Group Selected
+2024-10-28 12:21:48,373 - ERP -INFO - URL is opened
+2024-10-28 12:21:48,470 - ERP -INFO - Entered Username
+2024-10-28 12:21:48,571 - ERP -INFO - Entered Password
+2024-10-28 12:22:11,789 - ERP -INFO - items added to pos on new mode
+2024-10-28 12:22:28,548 - ERP -INFO - URL is opened
+2024-10-28 12:22:58,581 - ERP -INFO - URL is opened
+2024-10-28 12:23:30,778 - ERP -INFO - URL is opened
+2024-10-28 12:23:30,884 - ERP -INFO - Entered Username
+2024-10-28 12:23:30,986 - ERP -INFO - Entered Password
+2024-10-28 12:23:37,384 - ERP -INFO - URL is opened
+2024-10-28 12:24:07,432 - ERP -INFO - URL is opened
+2024-10-28 12:24:39,641 - ERP -INFO - URL is opened
+2024-10-28 12:24:39,732 - ERP -INFO - Entered Username
+2024-10-28 12:24:39,825 - ERP -INFO - Entered Password
+2024-10-28 12:25:36,272 - ERP -INFO - URL is opened
+2024-10-28 12:25:36,364 - ERP -INFO - Entered Username
+2024-10-28 12:25:36,470 - ERP -INFO - Entered Password
+2024-10-28 12:26:32,185 - ERP -INFO - URL is opened
+2024-10-28 12:26:32,279 - ERP -INFO - Entered Username
+2024-10-28 12:26:32,371 - ERP -INFO - Entered Password
+2024-10-28 12:26:38,751 - ERP -INFO - URL is opened
+2024-10-28 12:27:08,811 - ERP -INFO - URL is opened
+2024-10-28 12:27:40,841 - ERP -INFO - URL is opened
+2024-10-28 12:27:40,930 - ERP -INFO - Entered Username
+2024-10-28 12:27:41,025 - ERP -INFO - Entered Password
+2024-10-28 12:27:49,664 - ERP -INFO - URL is opened
+2024-10-28 12:27:49,757 - ERP -INFO - Entered Username
+2024-10-28 12:27:49,854 - ERP -INFO - Entered Password
+2024-10-28 12:28:06,034 - ERP -INFO - pos interface is opened
+2024-10-28 12:28:38,305 - ERP -INFO - counter selected
+2024-10-28 12:28:39,386 - ERP -INFO - URL is opened
+2024-10-28 12:28:47,808 - ERP -INFO - URL is opened
+2024-10-28 12:28:52,516 - ERP -INFO - URL is opened
+2024-10-28 12:28:55,043 - ERP -INFO - URL is opened
+2024-10-28 12:28:57,750 - ERP -INFO - URL is opened
+2024-10-28 12:28:59,537 - ERP -INFO - URL is opened
+2024-10-28 12:29:01,517 - ERP -INFO - URL is opened
+2024-10-28 12:29:03,311 - ERP -INFO - URL is opened
+2024-10-28 12:29:04,723 - ERP -INFO - URL is opened
+2024-10-28 12:29:06,054 - ERP -INFO - URL is opened
+2024-10-28 12:30:51,502 - ERP -INFO - URL is opened
+2024-10-28 12:30:51,644 - ERP -INFO - Entered Username
+2024-10-28 12:30:51,750 - ERP -INFO - Entered Password
+2024-10-28 12:31:40,996 - ERP -INFO - URL is opened
+2024-10-28 12:31:41,098 - ERP -INFO - Entered Username
+2024-10-28 12:31:41,213 - ERP -INFO - Entered Password
+2024-10-28 12:31:54,162 - ERP -INFO - Customer Master Opened
+2024-10-28 12:31:59,568 - ERP -INFO - Customer General Entered
+2024-10-28 12:31:59,660 - ERP -INFO - Customer Name Entered
+2024-10-28 12:32:02,900 - ERP -INFO - Customer Country Selected
+2024-10-28 12:32:05,049 - ERP -INFO - Customer City Selected
+2024-10-28 12:32:05,177 - ERP -INFO - Customer Currency Selected
+2024-10-28 12:32:05,305 - ERP -INFO - Customer Group Selected
+2024-10-28 12:33:11,547 - ERP -INFO - URL is opened
+2024-10-28 12:33:11,638 - ERP -INFO - Entered Username
+2024-10-28 12:33:11,730 - ERP -INFO - Entered Password
+2024-10-28 12:33:35,650 - ERP -INFO - items added to pos on new mode
+2024-10-28 12:33:51,399 - ERP -INFO - URL is opened
+2024-10-28 12:34:21,455 - ERP -INFO - URL is opened
+2024-10-28 12:34:53,645 - ERP -INFO - URL is opened
+2024-10-28 12:34:53,739 - ERP -INFO - Entered Username
+2024-10-28 12:34:53,837 - ERP -INFO - Entered Password
+2024-10-28 12:35:10,208 - ERP -INFO - pos interface is opened
+2024-10-28 12:35:13,904 - ERP -INFO - counter selected
+2024-10-28 12:35:17,122 - ERP -INFO - items added to pos on new mode
+2024-10-28 12:35:23,520 - ERP -INFO - pos checkedout
+2024-10-28 12:35:28,034 - ERP -INFO - pos transaction deleted
+2024-10-28 12:35:39,707 - ERP -INFO - URL is opened
+2024-10-28 12:35:39,809 - ERP -INFO - Entered Username
+2024-10-28 12:35:39,935 - ERP -INFO - Entered Password
+2024-10-28 12:36:05,000 - ERP -INFO - URL is opened
+2024-10-28 12:36:05,102 - ERP -INFO - Entered Username
+2024-10-28 12:36:05,208 - ERP -INFO - Entered Password
+2024-10-28 12:36:51,057 - ERP -INFO - URL is opened
+2024-10-28 12:36:51,142 - ERP -INFO - Entered Username
+2024-10-28 12:36:51,244 - ERP -INFO - Entered Password
+2024-10-28 12:36:58,819 - ERP -INFO - URL is opened
+2024-10-28 12:37:28,881 - ERP -INFO - URL is opened
+2024-10-28 12:38:01,046 - ERP -INFO - URL is opened
+2024-10-28 12:38:01,137 - ERP -INFO - Entered Username
+2024-10-28 12:38:01,245 - ERP -INFO - Entered Password
+2024-10-28 12:38:49,289 - ERP -INFO - URL is opened
+2024-10-28 12:38:49,375 - ERP -INFO - Entered Username
+2024-10-28 12:38:49,475 - ERP -INFO - Entered Password
+2024-10-28 12:39:06,714 - ERP -INFO - pos interface is opened
+2024-10-28 12:39:11,164 - ERP -INFO - URL is opened
+2024-10-28 12:39:41,225 - ERP -INFO - URL is opened
+2024-10-28 12:40:13,832 - ERP -INFO - URL is opened
+2024-10-28 12:40:13,920 - ERP -INFO - Entered Username
+2024-10-28 12:40:14,025 - ERP -INFO - Entered Password
+2024-10-28 12:40:25,757 - ERP -INFO - URL is opened
+2024-10-28 12:40:25,848 - ERP -INFO - Entered Username
+2024-10-28 12:40:25,946 - ERP -INFO - Entered Password
+2024-10-28 12:40:36,748 - ERP -INFO - URL is opened
+2024-10-28 12:40:37,691 - ERP -INFO - Entered Username
+2024-10-28 12:40:37,794 - ERP -INFO - Entered Password
+2024-10-28 12:40:46,484 - ERP -INFO - URL is opened
+2024-10-28 12:40:46,574 - ERP -INFO - Entered Username
+2024-10-28 12:40:46,669 - ERP -INFO - Entered Password
+2024-10-28 12:40:58,281 - ERP -INFO - URL is opened
+2024-10-28 12:40:58,375 - ERP -INFO - Entered Username
+2024-10-28 12:40:58,472 - ERP -INFO - Entered Password
+2024-10-28 12:41:06,903 - ERP -INFO - URL is opened
+2024-10-28 12:41:06,986 - ERP -INFO - Entered Username
+2024-10-28 12:41:07,080 - ERP -INFO - Entered Password
+2024-10-28 12:41:17,774 - ERP -INFO - URL is opened
+2024-10-28 12:41:18,668 - ERP -INFO - Entered Username
+2024-10-28 12:41:18,797 - ERP -INFO - Entered Password
+2024-10-28 12:41:30,418 - ERP -INFO - URL is opened
+2024-10-28 12:41:30,500 - ERP -INFO - Entered Username
+2024-10-28 12:41:30,593 - ERP -INFO - Entered Password
+2024-10-28 12:50:10,659 - ERP -INFO - URL is opened
+2024-10-28 12:50:10,821 - ERP -INFO - Entered Username
+2024-10-28 12:50:10,896 - ERP -INFO - Entered Password
+2024-10-28 12:50:20,298 - ERP -INFO - URL is opened
+2024-10-28 12:50:20,425 - ERP -INFO - Entered Username
+2024-10-28 12:50:20,530 - ERP -INFO - Entered Password
+2024-10-28 12:50:52,318 - ERP -INFO - URL is opened
+2024-10-28 12:50:52,414 - ERP -INFO - Entered Username
+2024-10-28 12:50:52,507 - ERP -INFO - Entered Password
+2024-10-28 12:51:03,899 - ERP -INFO - URL is opened
+2024-10-28 12:51:03,992 - ERP -INFO - Entered Username
+2024-10-28 12:51:04,084 - ERP -INFO - Entered Password
+2024-10-28 12:51:15,822 - ERP -INFO - URL is opened
+2024-10-28 12:51:15,916 - ERP -INFO - Entered Username
+2024-10-28 12:51:16,007 - ERP -INFO - Entered Password
+2024-10-28 12:51:25,491 - ERP -INFO - URL is opened
+2024-10-28 12:51:55,549 - ERP -INFO - URL is opened
+2024-10-28 12:52:27,555 - ERP -INFO - URL is opened
+2024-10-28 12:52:27,646 - ERP -INFO - Entered Username
+2024-10-28 12:52:27,741 - ERP -INFO - Entered Password
+2024-10-28 12:52:39,117 - ERP -INFO - URL is opened
+2024-10-28 12:52:39,211 - ERP -INFO - Entered Username
+2024-10-28 12:52:39,309 - ERP -INFO - Entered Password
+2024-10-28 12:52:48,972 - ERP -INFO - URL is opened
+2024-10-28 12:53:19,033 - ERP -INFO - URL is opened
+2024-10-28 12:53:51,139 - ERP -INFO - URL is opened
+2024-10-28 12:53:51,224 - ERP -INFO - Entered Username
+2024-10-28 12:53:51,316 - ERP -INFO - Entered Password
+2024-10-28 12:54:02,973 - ERP -INFO - URL is opened
+2024-10-28 12:54:03,057 - ERP -INFO - Entered Username
+2024-10-28 12:54:03,156 - ERP -INFO - Entered Password
+2024-10-28 12:54:14,645 - ERP -INFO - URL is opened
+2024-10-28 12:54:14,733 - ERP -INFO - Entered Username
+2024-10-28 12:54:14,832 - ERP -INFO - Entered Password
+2024-10-28 12:54:26,703 - ERP -INFO - URL is opened
+2024-10-28 12:54:26,791 - ERP -INFO - Entered Username
+2024-10-28 12:54:26,889 - ERP -INFO - Entered Password
+2024-10-28 12:54:36,383 - ERP -INFO - URL is opened
+2024-10-28 12:55:06,426 - ERP -INFO - URL is opened
+2024-10-28 12:55:38,498 - ERP -INFO - URL is opened
+2024-10-28 12:55:38,583 - ERP -INFO - Entered Username
+2024-10-28 12:55:38,677 - ERP -INFO - Entered Password
+2024-10-28 12:59:26,877 - ERP -INFO - URL is opened
+2024-10-28 12:59:27,018 - ERP -INFO - Entered Username
+2024-10-28 12:59:27,103 - ERP -INFO - Entered Password
+2024-10-28 12:59:35,230 - ERP -INFO - URL is opened
+2024-10-28 12:59:36,101 - ERP -INFO - Entered Username
+2024-10-28 12:59:36,202 - ERP -INFO - Entered Password
+2024-10-28 12:59:49,062 - ERP -INFO - Customer Master Opened
+2024-10-28 12:59:52,554 - ERP -INFO - Customer General Entered
+2024-10-28 12:59:52,682 - ERP -INFO - Customer Name Entered
+2024-10-28 12:59:55,962 - ERP -INFO - Customer Country Selected
+2024-10-28 12:59:58,109 - ERP -INFO - Customer City Selected
+2024-10-28 12:59:58,235 - ERP -INFO - Customer Currency Selected
+2024-10-28 12:59:58,368 - ERP -INFO - Customer Group Selected
+2024-10-28 13:01:04,519 - ERP -INFO - URL is opened
+2024-10-28 13:01:04,614 - ERP -INFO - Entered Username
+2024-10-28 13:01:04,712 - ERP -INFO - Entered Password
+2024-10-28 13:01:26,315 - ERP -INFO - items added to pos on new mode
+2024-10-28 13:01:42,122 - ERP -INFO - URL is opened
+2024-10-28 13:02:12,166 - ERP -INFO - URL is opened
+2024-10-28 13:02:44,214 - ERP -INFO - URL is opened
+2024-10-28 13:02:44,301 - ERP -INFO - Entered Username
+2024-10-28 13:02:44,397 - ERP -INFO - Entered Password
+2024-10-28 13:02:50,736 - ERP -INFO - URL is opened
+2024-10-28 13:03:20,756 - ERP -INFO - URL is opened
+2024-10-28 13:03:52,858 - ERP -INFO - URL is opened
+2024-10-28 13:03:52,948 - ERP -INFO - Entered Username
+2024-10-28 13:03:53,056 - ERP -INFO - Entered Password
+2024-10-28 13:04:38,700 - ERP -INFO - URL is opened
+2024-10-28 13:04:38,790 - ERP -INFO - Entered Username
+2024-10-28 13:04:38,886 - ERP -INFO - Entered Password
+2024-10-28 13:05:24,090 - ERP -INFO - URL is opened
+2024-10-28 13:05:24,193 - ERP -INFO - Entered Username
+2024-10-28 13:05:24,290 - ERP -INFO - Entered Password
+2024-10-28 13:06:05,146 - ERP -INFO - URL is opened
+2024-10-28 13:06:05,228 - ERP -INFO - Entered Username
+2024-10-28 13:06:05,321 - ERP -INFO - Entered Password
+2024-10-28 13:06:33,566 - ERP -INFO - URL is opened
+2024-10-28 13:06:33,659 - ERP -INFO - Entered Username
+2024-10-28 13:06:33,752 - ERP -INFO - Entered Password
+2024-10-28 13:06:50,853 - ERP -INFO - pos interface is opened
+2024-10-28 13:06:53,519 - ERP -INFO - counter selected
+2024-10-28 13:06:56,755 - ERP -INFO - items added to pos on new mode
+2024-10-28 13:06:58,918 - ERP -INFO - pos checkedout
+2024-10-28 13:07:10,881 - ERP -INFO - URL is opened
+2024-10-28 13:07:10,968 - ERP -INFO - Entered Username
+2024-10-28 13:07:11,072 - ERP -INFO - Entered Password
+2024-10-28 13:08:05,251 - ERP -INFO - URL is opened
+2024-10-28 13:08:05,349 - ERP -INFO - Entered Username
+2024-10-28 13:08:05,439 - ERP -INFO - Entered Password
+2024-10-28 13:08:13,871 - ERP -INFO - URL is opened
+2024-10-28 13:08:13,964 - ERP -INFO - Entered Username
+2024-10-28 13:08:14,053 - ERP -INFO - Entered Password
+2024-10-28 13:08:46,013 - ERP -INFO - URL is opened
+2024-10-28 13:08:46,114 - ERP -INFO - Entered Username
+2024-10-28 13:08:46,217 - ERP -INFO - Entered Password
+2024-10-28 13:09:07,264 - ERP -INFO - URL is opened
+2024-10-28 13:09:07,352 - ERP -INFO - Entered Username
+2024-10-28 13:09:07,445 - ERP -INFO - Entered Password
+2024-10-28 13:09:53,296 - ERP -INFO - URL is opened
+2024-10-28 13:09:53,383 - ERP -INFO - Entered Username
+2024-10-28 13:09:53,484 - ERP -INFO - Entered Password
+2024-10-28 13:10:28,605 - ERP -INFO - URL is opened
+2024-10-28 13:10:29,506 - ERP -INFO - Entered Username
+2024-10-28 13:10:29,608 - ERP -INFO - Entered Password
+2024-10-28 13:10:55,197 - ERP -INFO - URL is opened
+2024-10-28 13:10:55,292 - ERP -INFO - Entered Username
+2024-10-28 13:10:55,384 - ERP -INFO - Entered Password
+2024-10-28 13:17:23,166 - ERP -INFO - URL is opened
+2024-10-28 13:17:23,341 - ERP -INFO - Entered Username
+2024-10-28 13:17:23,425 - ERP -INFO - Entered Password
+2024-10-28 13:18:12,031 - ERP -INFO - URL is opened
+2024-10-28 13:18:12,860 - ERP -INFO - Entered Username
+2024-10-28 13:18:12,965 - ERP -INFO - Entered Password
+2024-10-28 13:18:28,713 - ERP -INFO - pos interface is opened
+2024-10-28 13:18:32,528 - ERP -INFO - counter selected
+2024-10-28 13:18:35,953 - ERP -INFO - items added to pos on new mode
+2024-10-28 13:18:42,311 - ERP -INFO - pos checkedout
+2024-10-28 13:18:46,861 - ERP -INFO - pos transaction deleted
+2024-10-28 13:18:57,789 - ERP -INFO - URL is opened
+2024-10-28 13:18:57,892 - ERP -INFO - Entered Username
+2024-10-28 13:18:58,004 - ERP -INFO - Entered Password
+2024-10-28 13:19:42,701 - ERP -INFO - URL is opened
+2024-10-28 13:19:43,590 - ERP -INFO - Entered Username
+2024-10-28 13:19:43,698 - ERP -INFO - Entered Password
+2024-10-28 13:20:07,492 - ERP -INFO - items added to pos on new mode
+2024-10-28 13:20:23,855 - ERP -INFO - URL is opened
+2024-10-28 13:20:53,921 - ERP -INFO - URL is opened
+2024-10-28 13:21:26,645 - ERP -INFO - URL is opened
+2024-10-28 13:21:26,745 - ERP -INFO - Entered Username
+2024-10-28 13:21:26,861 - ERP -INFO - Entered Password
+2024-10-28 13:21:35,668 - ERP -INFO - URL is opened
+2024-10-28 13:21:35,764 - ERP -INFO - Entered Username
+2024-10-28 13:21:35,861 - ERP -INFO - Entered Password
+2024-10-28 13:22:28,511 - ERP -INFO - URL is opened
+2024-10-28 13:22:28,607 - ERP -INFO - Entered Username
+2024-10-28 13:22:28,706 - ERP -INFO - Entered Password
+2024-10-28 14:04:19,799 - ERP -INFO - URL is opened
+2024-10-28 14:04:20,037 - ERP -INFO - Entered Username
+2024-10-28 14:04:20,133 - ERP -INFO - Entered Password
+2024-10-28 14:04:32,518 - ERP -INFO - URL is opened
+2024-10-28 14:04:32,618 - ERP -INFO - Entered Username
+2024-10-28 14:04:32,742 - ERP -INFO - Entered Password
+2024-10-28 14:04:48,165 - ERP -INFO - Customer Master Opened
+2024-10-28 14:04:51,754 - ERP -INFO - Customer General Entered
+2024-10-28 14:04:52,106 - ERP -INFO - Customer Name Entered
+2024-10-28 14:04:55,463 - ERP -INFO - Customer Country Selected
+2024-10-28 14:04:57,626 - ERP -INFO - Customer City Selected
+2024-10-28 14:04:57,756 - ERP -INFO - Customer Currency Selected
+2024-10-28 14:04:57,913 - ERP -INFO - Customer Group Selected
+2024-10-28 14:06:06,687 - ERP -INFO - URL is opened
+2024-10-28 14:06:07,845 - ERP -INFO - Entered Username
+2024-10-28 14:06:07,954 - ERP -INFO - Entered Password
+2024-10-28 14:08:28,043 - ERP -INFO - URL is opened
+2024-10-28 14:08:28,201 - ERP -INFO - Entered Username
+2024-10-28 14:08:28,294 - ERP -INFO - Entered Password
+2024-10-28 14:08:52,856 - ERP -INFO - URL is opened
+2024-10-28 14:08:52,956 - ERP -INFO - Entered Username
+2024-10-28 14:08:53,063 - ERP -INFO - Entered Password
+2024-10-28 14:10:07,446 - ERP -INFO - URL is opened
+2024-10-28 14:10:07,563 - ERP -INFO - Entered Username
+2024-10-28 14:10:07,664 - ERP -INFO - Entered Password
+2024-10-28 14:10:32,591 - ERP -INFO - items added to pos on new mode
+2024-10-28 14:10:49,913 - ERP -INFO - URL is opened
+2024-10-28 14:11:19,991 - ERP -INFO - URL is opened
+2024-10-28 14:11:52,246 - ERP -INFO - URL is opened
+2024-10-28 14:11:52,381 - ERP -INFO - Entered Username
+2024-10-28 14:11:52,491 - ERP -INFO - Entered Password
+2024-10-28 14:12:08,965 - ERP -INFO - pos interface is opened
+2024-10-28 14:12:11,896 - ERP -INFO - counter selected
+2024-10-28 14:12:15,273 - ERP -INFO - items added to pos on new mode
+2024-10-28 14:12:21,657 - ERP -INFO - pos checkedout
+2024-10-28 14:12:26,195 - ERP -INFO - pos transaction deleted
+2024-10-28 14:12:41,822 - ERP -INFO - URL is opened
+2024-10-28 14:12:41,920 - ERP -INFO - Entered Username
+2024-10-28 14:12:42,056 - ERP -INFO - Entered Password
+2024-10-28 14:12:54,344 - ERP -INFO - URL is opened
+2024-10-28 14:12:54,442 - ERP -INFO - Entered Username
+2024-10-28 14:12:54,563 - ERP -INFO - Entered Password
+2024-10-28 14:13:40,892 - ERP -INFO - URL is opened
+2024-10-28 14:13:41,001 - ERP -INFO - Entered Username
+2024-10-28 14:13:41,095 - ERP -INFO - Entered Password
+2024-10-28 14:13:51,355 - ERP -INFO - URL is opened
+2024-10-28 14:14:21,406 - ERP -INFO - URL is opened
+2024-10-28 14:14:53,852 - ERP -INFO - URL is opened
+2024-10-28 14:14:53,968 - ERP -INFO - Entered Username
+2024-10-28 14:14:54,080 - ERP -INFO - Entered Password
+2024-10-28 14:15:03,398 - ERP -INFO - URL is opened
+2024-10-28 14:15:03,505 - ERP -INFO - Entered Username
+2024-10-28 14:15:03,599 - ERP -INFO - Entered Password
+2024-10-28 14:15:19,459 - ERP -INFO - pos interface is opened
+2024-10-28 14:15:24,223 - ERP -INFO - URL is opened
+2024-10-28 14:15:54,273 - ERP -INFO - URL is opened
+2024-10-28 14:16:44,577 - ERP -INFO - URL is opened
+2024-10-28 14:16:44,708 - ERP -INFO - Entered Username
+2024-10-28 14:16:44,815 - ERP -INFO - Entered Password
+2024-10-28 14:17:50,998 - ERP -INFO - URL is opened
+2024-10-28 14:17:53,909 - ERP -INFO - Entered Username
+2024-10-28 14:17:54,025 - ERP -INFO - Entered Password
+2024-10-28 14:18:41,059 - ERP -INFO - URL is opened
+2024-10-28 14:18:41,155 - ERP -INFO - Entered Username
+2024-10-28 14:18:41,262 - ERP -INFO - Entered Password
+2024-10-28 14:19:15,108 - ERP -INFO - URL is opened
+2024-10-28 14:19:15,205 - ERP -INFO - Entered Username
+2024-10-28 14:19:15,316 - ERP -INFO - Entered Password
+2024-10-28 14:19:22,971 - ERP -INFO - URL is opened
+2024-10-28 14:19:23,791 - ERP -INFO - Entered Username
+2024-10-28 14:19:23,892 - ERP -INFO - Entered Password
+2024-10-28 14:20:14,499 - ERP -INFO - URL is opened
+2024-10-28 14:20:14,589 - ERP -INFO - Entered Username
+2024-10-28 14:20:14,698 - ERP -INFO - Entered Password
+2024-10-28 14:20:47,949 - ERP -INFO - URL is opened
+2024-10-28 14:20:48,047 - ERP -INFO - Entered Username
+2024-10-28 14:20:48,167 - ERP -INFO - Entered Password
+2024-10-28 14:21:16,037 - ERP -INFO - URL is opened
+2024-10-28 14:21:16,132 - ERP -INFO - Entered Username
+2024-10-28 14:21:16,235 - ERP -INFO - Entered Password
+2024-10-28 14:33:48,250 - ERP -INFO - URL is opened
+2024-10-28 14:33:48,404 - ERP -INFO - Entered Username
+2024-10-28 14:33:48,503 - ERP -INFO - Entered Password
+2024-10-28 14:33:56,497 - ERP -INFO - URL is opened
+2024-10-28 14:33:57,362 - ERP -INFO - Entered Username
+2024-10-28 14:33:57,464 - ERP -INFO - Entered Password
+2024-10-28 14:34:06,825 - ERP -INFO - URL is opened
+2024-10-28 14:34:36,858 - ERP -INFO - URL is opened
+2024-10-28 14:35:09,194 - ERP -INFO - URL is opened
+2024-10-28 14:35:09,290 - ERP -INFO - Entered Username
+2024-10-28 14:35:09,395 - ERP -INFO - Entered Password
+2024-10-28 14:35:36,606 - ERP -INFO - URL is opened
+2024-10-28 14:35:36,697 - ERP -INFO - Entered Username
+2024-10-28 14:35:36,798 - ERP -INFO - Entered Password
+2024-10-28 14:36:02,448 - ERP -INFO - items added to pos on new mode
+2024-10-28 14:36:18,721 - ERP -INFO - URL is opened
+2024-10-28 14:36:48,767 - ERP -INFO - URL is opened
+2024-10-28 14:37:21,094 - ERP -INFO - URL is opened
+2024-10-28 14:37:21,189 - ERP -INFO - Entered Username
+2024-10-28 14:37:21,314 - ERP -INFO - Entered Password
+2024-10-28 14:37:50,162 - ERP -INFO - URL is opened
+2024-10-28 14:37:50,254 - ERP -INFO - Entered Username
+2024-10-28 14:37:50,361 - ERP -INFO - Entered Password
+2024-10-28 14:38:03,054 - ERP -INFO - Customer Master Opened
+2024-10-28 14:38:06,331 - ERP -INFO - Customer General Entered
+2024-10-28 14:38:06,436 - ERP -INFO - Customer Name Entered
+2024-10-28 14:38:09,672 - ERP -INFO - Customer Country Selected
+2024-10-28 14:38:11,812 - ERP -INFO - Customer City Selected
+2024-10-28 14:38:11,933 - ERP -INFO - Customer Currency Selected
+2024-10-28 14:38:12,058 - ERP -INFO - Customer Group Selected
+2024-10-28 14:39:18,648 - ERP -INFO - URL is opened
+2024-10-28 14:39:18,743 - ERP -INFO - Entered Username
+2024-10-28 14:39:18,846 - ERP -INFO - Entered Password
+2024-10-28 14:40:04,884 - ERP -INFO - URL is opened
+2024-10-28 14:40:04,985 - ERP -INFO - Entered Username
+2024-10-28 14:40:05,105 - ERP -INFO - Entered Password
+2024-10-28 14:40:29,173 - ERP -INFO - URL is opened
+2024-10-28 14:40:29,266 - ERP -INFO - Entered Username
+2024-10-28 14:40:29,389 - ERP -INFO - Entered Password
+2024-10-28 14:40:37,903 - ERP -INFO - URL is opened
+2024-10-28 14:40:37,998 - ERP -INFO - Entered Username
+2024-10-28 14:40:38,108 - ERP -INFO - Entered Password
+2024-10-28 14:40:55,860 - ERP -INFO - pos interface is opened
+2024-10-28 14:40:58,918 - ERP -INFO - counter selected
+2024-10-28 14:41:02,242 - ERP -INFO - items added to pos on new mode
+2024-10-28 14:41:05,242 - ERP -INFO - pos checkedout
+2024-10-28 14:48:34,689 - ERP -INFO - URL is opened
+2024-10-28 14:48:34,850 - ERP -INFO - Entered Username
+2024-10-28 14:48:34,951 - ERP -INFO - Entered Password
+2024-10-28 14:48:56,365 - ERP -INFO - URL is opened
+2024-10-28 14:49:26,385 - ERP -INFO - URL is opened
+2024-10-28 14:49:58,732 - ERP -INFO - URL is opened
+2024-10-28 14:49:58,833 - ERP -INFO - Entered Username
+2024-10-28 14:49:58,945 - ERP -INFO - Entered Password
+2024-10-28 14:50:46,414 - ERP -INFO - URL is opened
+2024-10-28 14:50:47,317 - ERP -INFO - Entered Username
+2024-10-28 14:50:47,429 - ERP -INFO - Entered Password
+2024-10-28 14:51:35,475 - ERP -INFO - URL is opened
+2024-10-28 14:51:36,447 - ERP -INFO - Entered Username
+2024-10-28 14:51:36,551 - ERP -INFO - Entered Password
+2024-10-28 14:51:58,709 - ERP -INFO - URL is opened
+2024-10-28 14:51:58,803 - ERP -INFO - Entered Username
+2024-10-28 14:51:58,913 - ERP -INFO - Entered Password
+2024-10-28 14:52:21,782 - ERP -INFO - URL is opened
+2024-10-28 14:52:21,889 - ERP -INFO - Entered Username
+2024-10-28 14:52:21,997 - ERP -INFO - Entered Password
+2024-10-28 14:53:24,780 - ERP -INFO - URL is opened
+2024-10-28 14:53:25,623 - ERP -INFO - Entered Username
+2024-10-28 14:53:25,725 - ERP -INFO - Entered Password
+2024-10-28 14:53:49,514 - ERP -INFO - items added to pos on new mode
+2024-10-28 14:54:05,718 - ERP -INFO - URL is opened
+2024-10-28 14:54:35,782 - ERP -INFO - URL is opened
+2024-10-28 14:56:41,486 - ERP -INFO - URL is opened
+2024-10-28 14:56:41,652 - ERP -INFO - Entered Username
+2024-10-28 14:56:41,746 - ERP -INFO - Entered Password
+2024-10-28 14:57:11,341 - ERP -INFO - URL is opened
+2024-10-28 14:57:11,437 - ERP -INFO - Entered Username
+2024-10-28 14:57:11,560 - ERP -INFO - Entered Password
+2024-10-28 14:57:18,619 - ERP -INFO - URL is opened
+2024-10-28 14:57:48,634 - ERP -INFO - URL is opened
+2024-10-28 14:58:20,983 - ERP -INFO - URL is opened
+2024-10-28 14:58:21,082 - ERP -INFO - Entered Username
+2024-10-28 14:58:21,198 - ERP -INFO - Entered Password
+2024-10-28 14:58:29,121 - ERP -INFO - URL is opened
+2024-10-28 14:58:30,005 - ERP -INFO - Entered Username
+2024-10-28 14:58:30,109 - ERP -INFO - Entered Password
+2024-10-28 14:58:53,606 - ERP -INFO - items added to pos on new mode
+2024-10-28 14:59:09,855 - ERP -INFO - URL is opened
+2024-10-28 14:59:39,878 - ERP -INFO - URL is opened
+2024-10-28 15:05:07,475 - ERP -INFO - URL is opened
+2024-10-28 15:05:07,620 - ERP -INFO - Entered Username
+2024-10-28 15:05:07,712 - ERP -INFO - Entered Password
+2024-10-28 15:08:08,359 - ERP -INFO - URL is opened
+2024-10-28 15:08:08,504 - ERP -INFO - Entered Username
+2024-10-28 15:08:08,602 - ERP -INFO - Entered Password
+2024-10-28 15:18:57,952 - ERP -INFO - URL is opened
+2024-10-28 15:18:58,850 - ERP -INFO - Entered Username
+2024-10-28 15:18:58,966 - ERP -INFO - Entered Password
+2024-10-28 15:19:24,921 - ERP -INFO - URL is opened
+2024-10-28 15:19:25,076 - ERP -INFO - Entered Username
+2024-10-28 15:19:25,190 - ERP -INFO - Entered Password
+2024-10-28 15:20:34,921 - ERP -INFO - URL is opened
+2024-10-28 15:20:35,070 - ERP -INFO - Entered Username
+2024-10-28 15:20:35,157 - ERP -INFO - Entered Password
+2024-10-28 15:20:58,649 - ERP -INFO - items added to pos on new mode
+2024-10-28 15:21:14,886 - ERP -INFO - URL is opened
+2024-10-28 15:21:44,951 - ERP -INFO - URL is opened
+2024-11-02 14:03:34,690 - ERP -INFO - URL is opened
+2024-11-02 14:03:34,856 - ERP -INFO - Entered Username
+2024-11-02 14:03:34,952 - ERP -INFO - Entered Password
+2024-11-02 14:03:41,603 - ERP -INFO - URL is opened
+2024-11-02 14:04:07,393 - ERP -INFO - URL is opened
+2024-11-02 14:04:18,211 - ERP -INFO - URL is opened
+2024-11-02 14:04:19,086 - ERP -INFO - Entered Username
+2024-11-02 14:04:19,205 - ERP -INFO - Entered Password
+2024-11-02 14:04:27,115 - ERP -INFO - URL is opened
+2024-11-02 14:04:57,197 - ERP -INFO - URL is opened
+2024-11-02 14:05:45,766 - ERP -INFO - URL is opened
+2024-11-02 14:05:45,922 - ERP -INFO - Entered Username
+2024-11-02 14:05:46,034 - ERP -INFO - Entered Password
+2024-11-02 14:05:52,445 - ERP -INFO - URL is opened
+2024-11-02 14:06:22,516 - ERP -INFO - URL is opened
+2024-11-02 14:08:10,692 - ERP -INFO - URL is opened
+2024-11-02 14:08:11,561 - ERP -INFO - Entered Username
+2024-11-02 14:08:11,666 - ERP -INFO - Entered Password
+2024-11-02 14:09:01,121 - ERP -INFO - URL is opened
+2024-11-02 14:09:31,172 - ERP -INFO - URL is opened
+2024-11-02 14:11:53,532 - ERP -INFO - URL is opened
+2024-11-02 14:11:54,434 - ERP -INFO - Entered Username
+2024-11-02 14:11:54,556 - ERP -INFO - Entered Password

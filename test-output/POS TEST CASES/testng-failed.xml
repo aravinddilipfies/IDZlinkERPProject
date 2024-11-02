@@ -7,48 +7,13 @@
   <test thread-count="5" name="POS TEST(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.idzlink.testCases.POS.TC_PointofSalesDelete">
+      <class name="com.idzlink.testCases.POS.TC_pointofsalesitemcodesearch">
         <methods>
-          <include name="posdeletemode"/>
+          <include name="pointofsalesitemcodesearch"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.idzlink.testCases.POS.TC_PointofSalesDelete -->
-      <class name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation">
-        <methods>
-          <include name="posUnitPriceandTaxCalculation"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation -->
-      <class name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="Cash_Customer_Selection_Details_Verification"/>
-        </methods>
-      </class> <!-- com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS -->
-      <class name="com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum">
-        <methods>
-          <include name="itemsumverification"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum -->
-      <class name="com.idzlink.testCases.POS.TC_PointofSalesKeybordShotcutCash">
-        <methods>
-          <include name="poskeyboardshotcutcash"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.idzlink.testCases.POS.TC_PointofSalesKeybordShotcutCash -->
-      <class name="com.idzlink.testCases.POS.TC_PointofSalesEdit">
-        <methods>
-          <include name="poseditmode"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.idzlink.testCases.POS.TC_PointofSalesEdit -->
+      </class> <!-- com.idzlink.testCases.POS.TC_pointofsalesitemcodesearch -->
       <class name="com.idzlink.testCases.POS.TC_PointofSales_T001">
         <methods>
           <include name="posnewmode"/>
@@ -56,6 +21,62 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.idzlink.testCases.POS.TC_PointofSales_T001 -->
+      <class name="com.idzlink.testCases.POS.TC_shortcut_creditcustomer_pos">
+        <methods>
+          <include name="shortcut_creditcustomer_pos"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.POS.TC_shortcut_creditcustomer_pos -->
+      <class name="com.idzlink.testCases.POS.TC_PointofSalesEdit">
+        <methods>
+          <include name="poseditmode"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.POS.TC_PointofSalesEdit -->
+      <class name="com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum">
+        <methods>
+          <include name="itemsumverification"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.POS.TC_pointofSales_AmountCalculation_sum -->
+      <class name="com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Cash_Customer_Selection_Details_Verification"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.POS.TC_Cash_Customer_Selection_Details_Verification_POS -->
+      <class name="com.idzlink.testCases.POS.TC_pointofsalesbarcodesearch">
+        <methods>
+          <include name="pointofsalesbarcodesearch"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.POS.TC_pointofsalesbarcodesearch -->
+      <class name="com.idzlink.testCases.POS.TC_customer_creationinpos">
+        <methods>
+          <include name="customer_creationinpos"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.POS.TC_customer_creationinpos -->
+      <class name="com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation">
+        <methods>
+          <include name="posUnitPriceandTaxCalculation"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.POS.TC_PointofSales_UnitPriceandTaxCalculation -->
+      <class name="com.idzlink.testCases.POS.TC_PointofSalesKeybordShotcutCash">
+        <methods>
+          <include name="poskeyboardshotcutcash"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.idzlink.testCases.POS.TC_PointofSalesKeybordShotcutCash -->
     </classes>
   </test> <!-- POS TEST(failed) -->
 </suite> <!-- Failed suite [POS TEST CASES] -->

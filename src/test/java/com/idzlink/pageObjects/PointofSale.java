@@ -238,13 +238,18 @@ public class PointofSale extends AbstractComponents {
 	@CacheLookup
 	WebElement mrpalertbtn;
 	
+	@FindBy(xpath="//span[@class='glyphicon glyphicon-search']")
+	@CacheLookup
+	WebElement itemsearchicon;
+	//span[@class='glyphicon glyphicon-search']
+	
 	
 	public void Posopen()
 	{
 		posEle.click();
 	}
 	
-	public void counterselection()
+	public void counterselection() throws InterruptedException
 	{
 	/*	contEle.click();
 		counterok.click();*/
@@ -259,6 +264,8 @@ public class PointofSale extends AbstractComponents {
 		
 		counterok.click();
 		
+		Thread.sleep(3000);		
+		itemsearchicon.click();
 	}
 	
 	public void itemadd() throws InterruptedException
